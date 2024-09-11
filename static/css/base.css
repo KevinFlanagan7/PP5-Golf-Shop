@@ -31,6 +31,22 @@ body {
     border: 1px solid black !important;
 }
 
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.update-link, .remove-item {
+    cursor: pointer;
+}
+
 /* Media Queries */
 
 /* Slightly larger container on xl screens */
