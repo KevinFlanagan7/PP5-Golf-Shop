@@ -47,6 +47,12 @@ body {
     cursor: pointer;
 }
 
+.img-fill {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 /* Bootstrap messages */
 
 .message-container {
