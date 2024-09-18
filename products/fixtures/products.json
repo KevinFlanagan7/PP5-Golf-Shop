@@ -1,0 +1,210 @@
+[
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "category": 1,
+        "name": "Taylormade Sim 2 driver",
+        "description": "Second hand Taylormade SIM 2 driver (2024).",
+        "has_sizes": false,
+        "price": "199.99",
+        "rating": "4.00",
+        "image": "taylormadeSIM2max.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "category": 4,
+        "name": "Adidas Men's Tour360",
+        "description": "Adidas Men's Tour360 24 Golf Shoes Experience exceptional performance and comfort on the course with the adidas Tour360 24 Boost Golf Shoes.",
+        "has_sizes": true,
+        "price": "149.99",
+        "rating": "4.50",
+        "image": "addidasshoes.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "category": 2,
+        "name": "TaylorMade Tour Cart Bag",
+        "description": "TaylorMade Tour Cart Bag - The New 2021 SIM 2 Blue white and yellow Tour cart bag has a premium look and feel with that you would associate with the Tour.",
+        "has_sizes": false,
+        "price": "299.99",
+        "rating": "4.60",
+        "image": "taylormadebag.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "category": 3,
+        "name": "TaylorMade P790 Irons",
+        "description": "TaylorMade P790 Iron Set, newly engineered SpeedFoam Air is 69% lighter than its predecessor.",
+        "has_sizes": false,
+        "price": "799.99",
+        "rating": "4.30",
+        "image": "taylormadeirons.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "category": 1,
+        "name": "Titleist TSR2",
+        "description": "TSR2 Driver By Titleist Golf Titleist TSR2 is slimmed down and ramped up. For players who make contact across the entire surface of the face, it combines our most significant CG shift with a new Multi-Plateau Variable Face Thickness design to boost speed across the face. All within a cleaner, refined shape that inspires total player confidence. Benefits High Launch & Low Spin Optimized Speed Increased Stability Across Face Player-Preferred Shaping Features Multi-Plateau Variable Face Thickness D",
+        "has_sizes": false,
+        "price": "399.99",
+        "rating": "4.60",
+        "image": "titleisttsr2.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "category": 3,
+        "name": "Titleist T350",
+        "description": "Titleist T350 Irons (Graphite Shaft) 2023Mens Right Hand 5-PW + W (7 Irons) Mitsubishi Tensei AV Red AM2 Senior.",
+        "has_sizes": false,
+        "price": "599.99",
+        "rating": "3.80",
+        "image": "titleistt350.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "category": 2,
+        "name": "Titleist Tour bag",
+        "description": "Titleist Tour Series Staff Bag - Black/White",
+        "has_sizes": false,
+        "price": "250.00",
+        "rating": "4.50",
+        "image": "titleistbag.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "category": 4,
+        "name": "Footjoy Shoes",
+        "description": "FootJoy is world renowned for their incredible golf shoe designs. At golf world we carry a comprehensive line of FootJoy golf shoes for you to choose from, whether you are a recreational or professional golfer. The line spans the spectrum from sporty shoes suitable for weekend games, to tour shoes ideal for competitive rounds. Buy one or buy many to ensure your feet are always prepared for the weather.",
+        "has_sizes": true,
+        "price": "99.99",
+        "rating": "4.20",
+        "image": "footjoyshoes.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "category": 1,
+        "name": "Ping G425",
+        "description": "G425 MAX DRIVER Incredibly high MOI 26g tungsten movable CG-shifting weight Neutral, Draw and Fade settings for customized ball flight T9S+ forged face flexes to add distance Internal ribbing optimizes feel and sound Lightweight, 8-position hosel for adjusting loft and lie Arccos Caddie Smart Grip and Smart Sensor technology pair with the Arccos Caddie app to automatically record and analyze every shot.",
+        "has_sizes": false,
+        "price": "249.99",
+        "rating": "4.20",
+        "image": "pingg425.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "category": 3,
+        "name": "Ping G700",
+        "description": "Ping G700 4-PW, AW Iron Set Regular Green Dot 2 ? 2.25 Degrees Upright Value.",
+        "has_sizes": false,
+        "price": "349.99",
+        "rating": "3.80",
+        "image": "pingg700.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 13,
+      "fields": {
+        "category": 4,
+        "name": "Asics Pro",
+        "description": "Asics Men's Gel Ace Pro M Golf Shoes The ASICS Men's Gel-Ace Pro M Golf Shoes combine exceptional comfort, waterproof protection, and a supportive fit to help you dominate the course in all conditions. It's equipped with a BOA lacing system to offer lightweight support, padding, and a customized fit. The upper also features an external heel counter that reinforces stability so that you can keep focused on your swing. Meanwhile, a waterproof upper helps keep your feet dry when you're golfing in wet.",
+        "has_sizes": true,
+        "price": "120.00",
+        "rating": "4.00",
+        "image": "asicsshoes.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 14,
+      "fields": {
+        "category": 1,
+        "name": "Callaway Rogue",
+        "description": "The new Rogue ST MAX Driver is Callaway�s fastest, most stable driver ever. The groundbreaking new Tungsten Speed Cartridge structure places up to 26 grams low and deep in the driver head. This increases speed on off-center hits and provides more forgiveness through high MOI.",
+        "has_sizes": false,
+        "price": "399.99",
+        "rating": "4.60",
+        "image": "callawatrogue.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 15,
+      "fields": {
+        "category": 2,
+        "name": "Callaway Cart bag",
+        "description": "At Golf world we have a superb range of Callaway Golf Cart Bags and offer discounts throughout the year. Whether it's superior organization or waterproof technology you're after, you will find the perfect cart bag to complement your game here.",
+        "has_sizes": false,
+        "price": "199.99",
+        "rating": "4.50",
+        "image": "callawaybag.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 16,
+      "fields": {
+        "category": 3,
+        "name": "Callaway Smoke",
+        "description": "Callaway Paradym AI Smoke Iron.",
+        "has_sizes": false,
+        "price": "599.99",
+        "rating": "4.30",
+        "image": "callawaysmoke.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 17,
+      "fields": {
+        "category": 4,
+        "name": "Callaway Shoes",
+        "description": "60% Polyurethane / 40% Nylon Waterproof opti-dri� microfiber leather upper ForgedFoam� midsole for superior comfort and performance 9 Spike TPU Fusion-Lite� outsole for maximum stability & control CounterLok� heel stabilizer for additional support during the swing 7mm Molded PU insole for superior comfort Opti-vent� mesh liner for breathability and heat management Imported | Callaway Apparel Men's Coronado V2 Golf Shoes, White, Polyurethane/Nylon | Golf Apparel Shop",
+        "has_sizes": true,
+        "price": "89.99",
+        "rating": "4.00",
+        "image": "callawayshoes.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 18,
+      "fields": {
+        "category": 2,
+        "name": "Ping Bag",
+        "description": "Ping DLX Cart Bag The PING DLX cart bag features tour-inspired materials, a refined style and new added conveniences for virtually every accessory. Wide club wells, 14 pockets, soft-molded handles and a durable polyurethane exterior ensure that the PING DLX Cart Vag will accommodate every need and hold up to the heaviest use. DLX Cart Bag Features: 15-way mesh covered top with soft-molded lift handles 2 deployable shoe pouches 14 pockets including two large apparel pockets.",
+        "has_sizes": false,
+        "price": "189.99",
+        "rating": "4.40",
+        "image": "pingbag.jpg"
+      }
+    }
+  ]

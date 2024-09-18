@@ -1,0 +1,30 @@
+[
+    {
+      "model": "products.category",
+      "pk": 1,
+      "fields": {
+        "name": "Drivers"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 2,
+      "fields": {
+        "name": "Bags"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 3,
+      "fields": {
+        "name": "Irons"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 4,
+      "fields": {
+        "name": "Shoes"
+      }
+    }
+  ]
