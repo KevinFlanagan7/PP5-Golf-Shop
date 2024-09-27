@@ -10,6 +10,16 @@ body {
     font-family: 'Lato';
 }
 
+main {
+    padding-bottom: 100px; /* Make space for the footer */
+}
+
+footer {
+    background: gray;
+    padding: 2rem;
+}
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -97,6 +107,15 @@ body {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+/* Mailchimp */
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+  }
 
 /* Media Queries */
 
