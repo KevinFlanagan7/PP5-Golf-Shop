@@ -3,21 +3,27 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: white;
     background-size: cover;
-    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
 
 main {
-    padding-bottom: 100px; /* Make space for the footer */
+    flex: 1; /* Makes the main area fill available space */
+    padding-bottom: 50px; /* Adjust padding as necessary */
+    margin-top: 5rem;
 }
 
 footer {
     background: gray;
-    padding: 2rem;
+    padding: 2rem; /* Space around footer content */
 }
+
+
 
 
 /* from Bulma */
@@ -108,14 +114,6 @@ footer {
     border-radius: 0;
 }
 
-/* Mailchimp */
-
-#mc_embed_signup {
-    background: #fff;
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 600px;
-  }
 
 /* Media Queries */
 
@@ -151,10 +149,6 @@ footer {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
     .nav-link {
         padding: 0.15rem;
     }
@@ -166,5 +160,20 @@ footer {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 }
