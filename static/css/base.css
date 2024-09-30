@@ -135,14 +135,14 @@ footer {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 5rem;
     }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 8rem;
+        padding-top: 1rem;
     }
 
     body {
@@ -175,5 +175,11 @@ footer {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+}
+
+@media (max-width: 410px) {
+    .table th, .table td {
+        font-size: 0.8rem; /* Smaller font size */
     }
 }
