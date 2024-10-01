@@ -17,7 +17,7 @@
             <div class="image-container my-5">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <img class="shadow card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                 </a>
                 {% else %}
                 <a href="">
@@ -98,7 +98,7 @@
                                 </span>
                                 <span class="text-uppercase">Back To Products</span>
                             </a>
-                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5"
+                            <input type="submit" class="btn btn-black text-uppercase mt-5"
                                 value="Add to Cart">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
