@@ -11,7 +11,7 @@
 
 <p class="text-center">{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
 
-<form class="signup shadow p-4" id="signup_form" method="post" action="{% url 'account_signup' %}">
+<form class="signup shadow bg-white p-4" id="signup_form" method="post" action="{% url 'account_signup' %}">
   {% csrf_token %}
   {{ form|crispy }}
   {% if redirect_field_value %}

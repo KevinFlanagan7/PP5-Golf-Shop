@@ -11,7 +11,9 @@
 
 {% block content %}
 <div class="container-fluid p-0">
-    <img src="{{ MEDIA_URL }}home-titleist.webp" class="img-fluid w-100" alt="Main Image" style="min-height: 25vh;">
+    <a href="{% url 'products' %}">
+        <img src="{{ MEDIA_URL }}home-titleist.webp" class="img-fluid w-100" alt="Main Image" style="min-height: 25vh;">
+    </a>
 </div>
 
 <!-- Categories section -->
