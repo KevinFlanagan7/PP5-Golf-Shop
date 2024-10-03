@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .forms import ContactForm
 from django.core.mail import send_mail
 from django.conf import settings
+from django.contrib import messages
 
 def contact(request):
     if request.method == 'POST':
@@ -18,11 +19,10 @@ def contact(request):
                 fail_silently=False,
             )
 
-            return redirect('success') 
+            messages.success(request, 'Your message has been sent successfully!')
+
+            return redirect('contact') 
     else:
         form = ContactForm()
 
     return render(request, 'contact/contact.html', {'form': form})
-
-def success(request):
-    return render(request, 'contact/success.html')
