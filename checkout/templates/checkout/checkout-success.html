@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="logo-font mb-4">Thank You</h2>
+                <h2 class="logo-font mt-2 mb-4">Thank You</h2>
                 <p class="text-black">Your order is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
@@ -182,15 +182,15 @@
         <div class="row justify-content-center mt-4">
 			<div class="col-12 col-lg-6 text-center">
 				{% if from_profile %}
-                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                    <a href="{% url 'profile' %}" class="btn btn-primary rounded-4 my-2">
                         <span class="icon mr-2">
                             <i class="fas fa-angle-left"></i>
                         </span>
-                        <span class="text-uppercase">Back to Profile</span>
+                        <span>Back to Profile</span>
                     </a>
                 {% else %}
-                    <a href="{% url 'products' %}" class="btn btn-black rounded-0 my-2">
-                        <span class="text-uppercase">Back To Products</span>
+                    <a href="{% url 'products' %}" class="btn btn-primary rounded-4 my-2">
+                        <span>Back To Products</span>
                     </a>
                 {% endif %}
 			</div>
