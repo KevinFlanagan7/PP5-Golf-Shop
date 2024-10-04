@@ -158,18 +158,27 @@ main {
 
 @media (max-width: 768px) {
     h4 {
-        font-size: 1.25rem; /* Reduces Grand Total font size */
+        font-size: 1.25rem; 
     }
-    
+
     .btn-lg {
-        padding: 0.25rem 0.5rem; /* Same as .btn-sm padding */
-        font-size: 0.875rem;      /* Same as .btn-sm font size */
+        padding: 0.25rem 0.5rem; 
+        font-size: 0.875rem;      
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 450px) {
     .table th, .table td {
-        font-size: 0.8rem; /* Smaller font size */
+        font-size: 0.8rem; 
+    }
+
+    .input-group .btn {
+        font-size: 0.5rem; 
+    }
+ 
+    .input-group .form-control {
+        height: 1.4rem; 
+        font-size: 0.5rem; 
     }
 }
 
