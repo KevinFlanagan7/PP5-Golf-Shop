@@ -14,14 +14,9 @@ body {
 
 main {
     flex: 1; /* Makes the main area fill available space */
-    padding-bottom: 2rem; /* Adjust padding as necessary */
+    padding-bottom: 2rem;
     margin-top: 4rem;
 }
-
-
-
-
-
 
 /* from Bulma */
 .icon {
@@ -81,6 +76,10 @@ main {
 
 .toast-capper {
     height: 2px;
+}
+
+.bg-black {
+    background: black;
 }
 
 /* Product Form */
