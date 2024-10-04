@@ -8,15 +8,15 @@
 {% block inner_content %}
 
 
-<h2 class="logo-font mb-4 text-center">{% trans "Sign In" %}</h2>
+<h2 class="logo-font mt-2 mb-4 text-center">{% trans "Sign In" %}</h2>
 
 
 {% get_providers as socialaccount_providers %}
 
 {% if socialaccount_providers %}
 <p class="text-center">{% blocktrans with site.name as site_name %}Please sign in with one
-of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
-for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
+  of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
+  for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
 
 <div class="socialaccount_ballot text-center">
 
@@ -32,7 +32,8 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
 
 {% else %}
 <p class="text-center">{% blocktrans %}If you have not created an account yet, then please
-<a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+  <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}
+</p>
 {% endif %}
 
 <form class="login shadow bg-white p-4" method="POST" action="{% url 'account_login' %}">
@@ -41,7 +42,7 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
+  <button class="btn btn-primary rounded-4" type="submit">{% trans "Sign In" %}</button>
   <p class="mt-2">
     <a class="button secondaryAction" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
   </p>

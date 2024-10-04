@@ -12,41 +12,43 @@
 {% block content %}
 <div class="container-fluid p-0">
     <a href="{% url 'products' %}">
-        <img src="{{ MEDIA_URL }}home-titleist.webp" class="img-fluid w-100" alt="Main Image" style="min-height: 25vh;">
+        <img src="{{ MEDIA_URL }}home-titleist.webp" class="img-fluid w-100" alt="Main Image" style="min-height: 30vh;">
     </a>
 </div>
 
 <!-- Categories section -->
-<div class="container-fluid mt-2 px-3">
+<div class="container-fluid">
     <div class="row text-center">
-        <div class="col-6 col-md-3 p-2">
+        <div class="col-6 col-md-3 p-2"> 
             <a href="{% url 'products' %}?category=Drivers" class="text-decoration-none position-relative d-block">
                 <img class="img-fluid h-100 w-100" src="{{ MEDIA_URL }}home-drivers.jpg" alt="Product 1">
-                <h4 class="bg-dark text-white position-absolute bottom-0 w-100 py-2">Drivers</h4>
+                <h5 class="bg-dark text-white position-absolute bottom-0 w-100 py-1">Drivers</h5> 
             </a>
         </div>
 
-        <div class="col-6 col-md-3 p-2">
+        <div class="col-6 col-md-3 p-2">  
             <a href="{% url 'products' %}?category=Bags" class="text-decoration-none position-relative d-block">
                 <img class="img-fluid h-100 w-100" src="{{ MEDIA_URL }}callawaybag.jpg" alt="Product 2">
-                <h4 class="bg-dark text-white position-absolute bottom-0 w-100 py-2">Bags</h4>
+                <h5 class="bg-dark text-white position-absolute bottom-0 w-100 py-1">Bags</h5> 
             </a>
         </div>
 
-        <div class="col-6 col-md-3 p-2">
+        <div class="col-6 col-md-3 p-2 mt-4 mt-md-0"> 
             <a href="{% url 'products' %}?category=Irons" class="text-decoration-none position-relative d-block">
-                <img class="img-fluid h-100 w-100 mt-5 mt-md-0" src="{{ MEDIA_URL }}callawaybag.jpg" alt="Product 3">
-                <h4 class="bg-dark text-white position-absolute bottom-0 w-100 py-2">Irons</h4>
+                <img class="img-fluid h-100 w-100" src="{{ MEDIA_URL }}callawaybag.jpg" alt="Product 3">
+                <h5 class="bg-dark text-white position-absolute bottom-0 w-100 py-1">Irons</h5> 
             </a>
         </div>
 
-        <div class="col-6 col-md-3 p-2">
+        <div class="col-6 col-md-3 p-2 mt-4 mt-md-0"> 
             <a href="{% url 'products' %}?category=Shoes" class="text-decoration-none position-relative d-block">
-                <img class="img-fluid h-100 w-100 mt-5 mt-md-0" src="{{ MEDIA_URL }}addidasshoes.jpg" alt="Product 4">
-                <h4 class="bg-dark text-white position-absolute bottom-0 w-100 py-2">Shoes</h4>
+                <img class="img-fluid h-100 w-100" src="{{ MEDIA_URL }}addidasshoes.jpg" alt="Product 4">
+                <h5 class="bg-dark text-white position-absolute bottom-0 w-100 py-1">Shoes</h5> 
             </a>
         </div>
     </div>
 </div>
+
+
 
 {% endblock %}

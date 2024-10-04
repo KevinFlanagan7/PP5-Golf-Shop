@@ -14,7 +14,7 @@ body {
 
 main {
     flex: 1; /* Makes the main area fill available space */
-    padding-bottom: 50px; /* Adjust padding as necessary */
+    padding-bottom: 2rem; /* Adjust padding as necessary */
     margin-top: 4rem;
 }
 
