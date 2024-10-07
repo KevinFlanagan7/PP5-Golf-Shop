@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'contact',
+    'wishlist',
 
     #Other
     'storages',
