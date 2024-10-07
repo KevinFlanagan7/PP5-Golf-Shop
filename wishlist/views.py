@@ -8,35 +8,38 @@ from django.contrib import messages
 
 @login_required
 def view_wishlist(request):
-    # Get the UserProfile instance for the logged-in user
+    
     user_profile = get_object_or_404(UserProfile, user=request.user)
-
-    # Try to fetch the Wishlist for the UserProfile instance
     wishlist, created = Wishlist.objects.get_or_create(user=user_profile)
+    items = wishlist.items.all()  
 
-    # Retrieve all items associated with the wishlist
-    items = wishlist.items.all()  # Use the correct related_name 'items'
-
-    # Pass the wishlist object and items to the template
     return render(request, 'wishlist/wishlist.html', {'items': items, 'wishlist': wishlist})
 
 
 @login_required
 def add_to_wishlist(request, product_id):
+    # Get the product that the user wants to add to their wishlist
     product = get_object_or_404(Product, id=product_id)
-    wishlist, created = Wishlist.objects.get_or_create(user=request.user)
 
+    # Retrieve the UserProfile instance for the logged-in user
+    user_profile = get_object_or_404(UserProfile, user=request.user)
+
+    # Get or create the wishlist for this user
+    wishlist, created = Wishlist.objects.get_or_create(user=user_profile)
+
+    # Check if the product is already in the wishlist
     if not WishlistItem.objects.filter(wishlist=wishlist, product=product).exists():
         WishlistItem.objects.create(wishlist=wishlist, product=product)
-        messages.success(request, f"{product.name} has been added to your wishlist!")
+        messages.info(request, f"{product.name} has been added to your wishlist!")
     else:
         messages.info(request, f"{product.name} is already in your wishlist.")
 
-    return redirect('wishlist:view_wishlist')
+    return redirect('product_detail', product_id=product.id)  # Stay on product 
 
 
 @login_required
 def remove_from_wishlist(request, item_id):
     item = get_object_or_404(WishlistItem, id=item_id)
     item.delete()
-    return redirect('wishlist:view_wishlist')
+    messages.info(request, f'"{item.product.name}" has been removed from your wishlist.')  # Add success message
+    return redirect('view_wishlist')
