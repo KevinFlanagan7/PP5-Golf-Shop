@@ -18,13 +18,9 @@ def view_wishlist(request):
 
 @login_required
 def add_to_wishlist(request, product_id):
-    # Get the product that the user wants to add to their wishlist
+    
     product = get_object_or_404(Product, id=product_id)
-
-    # Retrieve the UserProfile instance for the logged-in user
     user_profile = get_object_or_404(UserProfile, user=request.user)
-
-    # Get or create the wishlist for this user
     wishlist, created = Wishlist.objects.get_or_create(user=user_profile)
 
     # Check if the product is already in the wishlist
@@ -34,12 +30,12 @@ def add_to_wishlist(request, product_id):
     else:
         messages.info(request, f"{product.name} is already in your wishlist.")
 
-    return redirect('product_detail', product_id=product.id)  # Stay on product 
+    return redirect('product_detail', product_id=product.id) 
 
 
 @login_required
 def remove_from_wishlist(request, item_id):
     item = get_object_or_404(WishlistItem, id=item_id)
     item.delete()
-    messages.info(request, f'"{item.product.name}" has been removed from your wishlist.')  # Add success message
+    messages.info(request, f'"{item.product.name}" has been removed from your wishlist.') 
     return redirect('view_wishlist')

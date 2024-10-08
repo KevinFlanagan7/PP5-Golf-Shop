@@ -30,14 +30,14 @@
                 <div class="dropdown-menu bg-primary border-0" aria-labelledby="user-options">
                     {% if request.user.is_authenticated %}
                         {% if request.user.is_superuser %}
-                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                            <a href="{% url 'add_product' %}" class="dropdown-item font-weight-bold">Product Management</a>
                         {% endif %}
-                        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                        <a href="{% url 'view_wishlist' %}" class="dropdown-item">My Wishlist</a>
-                        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        <a href="{% url 'profile' %}" class="dropdown-item font-weight-bold">My Profile</a>
+                        <a href="{% url 'view_wishlist' %}" class="dropdown-item font-weight-bold">My Wishlist</a>
+                        <a href="{% url 'account_logout' %}" class="dropdown-item font-weight-bold">Logout</a>
                     {% else %}
-                        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                        <a href="{% url 'account_signup' %}" class="dropdown-item font-weight-bold">Register</a>
+                        <a href="{% url 'account_login' %}" class="dropdown-item font-weight-bold">Login</a>
                     {% endif %}
                 </div>
             </li>            
