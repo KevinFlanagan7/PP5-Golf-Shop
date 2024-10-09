@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /profile/
+Disallow: /wishlist/
+Sitemap: https://pp5-golf-shop-a06971bbe403.herokuapp.com/sitemap.xml
