@@ -177,3 +177,9 @@ main {
     }
 }
 
+@media (min-width: 576px) {
+    .font-lg {
+        font-size: 1.25rem;
+    }
+}
+
