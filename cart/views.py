@@ -13,13 +13,25 @@ def add_to_cart(request, item_id):
     """ Add a quantity of the product to the cart """
 
     product = get_object_or_404(Product, pk=item_id)
-    quantity = int(request.POST.get('quantity'))
-    redirect_url = request.POST.get('redirect_url')
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
+
+    min_quantity = 1  
+    max_quantity = 99 
+
+    # Get the quantity from the POST request and validate it
+    try:
+        quantity = int(request.POST.get('quantity', 0))  
+    except (ValueError, TypeError):
+        quantity = 0  
+
+    redirect_url = request.POST.get('redirect_url', '/')
+    size = request.POST.get('product_size', None)  
     cart = request.session.get('cart', {})
 
+    # Check if quantity is within the valid range
+    if quantity < min_quantity or quantity > max_quantity:
+        messages.error(request, f'Please enter a quantity between {min_quantity} and {max_quantity}.')
+        return redirect(redirect_url) 
+    
     if size:
         if item_id in list(cart.keys()):
             if size in cart[item_id]['items_by_size'].keys():
@@ -48,11 +60,23 @@ def adjust_cart(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
 
     product = get_object_or_404(Product, pk=item_id)
-    quantity = int(request.POST.get('quantity'))
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
+
+    min_quantity = 1
+    max_quantity = 99
+
+    # Get the quantity from the POST request and validate it
+    try:
+        quantity = int(request.POST.get('quantity', 0)) 
+    except (ValueError, TypeError):
+        quantity = 0 
+
+    size = request.POST.get('product_size', None) 
     cart = request.session.get('cart', {})
+
+    # Check if quantity is within the valid range
+    if quantity < min_quantity or quantity > max_quantity:
+        messages.error(request, f'Please enter a quantity between {min_quantity} and {max_quantity}.')
+        return redirect(reverse('view_cart')) 
 
     if size:
         if quantity > 0:
