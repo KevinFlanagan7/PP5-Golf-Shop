@@ -155,10 +155,87 @@
 
 - Home page
 
-    ![Home]()
+    ![Home](/documentation/code_validation/home-html.png)
+
+- Login page
+
+    ![Login](/documentation/code_validation/login-html.png)
+
+- Signup page, error caused by Allauth signup form
+
+    ![Signup](/documentation/code_validation/signup-html.png)
+
+- Products
+
+    ![Products](/documentation/code_validation/products-html.png)
+
+- Drivers page
+
+    ![Drivers](/documentation/code_validation/drivers-html.png)
+
+- Bags page
+
+    ![Bags](/documentation/code_validation/bags-html.png)
+
+- Irons page
+
+    ![Irons](/documentation/code_validation/irons-html.png)
+
+- Shoes page
+
+    ![Shoes](/documentation/code_validation/shoes.html.png)
+
+- Cart page, Duplicate errors caused by 2 quantity form includes, one for small screen layout size and one for large.
+
+    ![Cart](/documentation/code_validation/cart-html.png)
+
+- Cart empty page
+
+    ![Cart empty](/documentation/code_validation/cart-empty-html.png)
+
+- Checkout page
+
+    ![Checkout](/documentation/code_validation/checkout-html.png)
+
+- Checkout success page
+
+    ![Checkout success](/documentation/code_validation/checkout-success-html.png)
+
+- Product Admin page, error caused by custom widget template used for adding images.
+
+    ![Product Admin](/documentation/code_validation/product-admin-html.png)
+
+- Edit page, error caused by custom widget template used for editing images.
+
+    ![Edit](/documentation/code_validation/edit-html.png)
+
+- My Profile page
+
+    ![Profile](/documentation/code_validation/profile-html.png)
+
+- My Wishlist page
+
+    ![Wishlist](/documentation/code_validation/wishlist-html.png)
+
+- My Wishlist empty page
+
+    ![Wishlist empty](/documentation/code_validation/wishlist-empty-html.png)
+
+- Sign out page
+
+    ![Signout](/documentation/code_validation/signout-html.png)
+
+- Contact us page
+
+    ![Contact](/documentation/code_validation/contact-html.png)
 
 
-<details><summary>CSS file</summary>
+</details>
+
+<br>
+
+
+<details><summary>CSS files</summary>
 
 - style.css file
 
@@ -168,7 +245,7 @@
 
 <br>
 
-<details><summary>JavaScript file</summary>
+<details><summary>JavaScript files</summary>
 
 - script.js
 
