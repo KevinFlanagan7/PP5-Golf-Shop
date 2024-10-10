@@ -237,9 +237,17 @@
 
 <details><summary>CSS files</summary>
 
-- style.css file
+- Base.css
 
-    ![CSS]()
+    ![Base](/documentation/code_validation/base-css.png)
+
+- Profile css
+
+    ![Profile](/documentation/code_validation/profile-css.png)
+
+- Checkout css
+
+    ![Checkout](/documentation/code_validation/checkout-css.png)
 
 </details>
 
