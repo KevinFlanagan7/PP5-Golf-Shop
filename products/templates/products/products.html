@@ -105,9 +105,5 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script>
-    $('.btt-link').click(function (e) {
-        window.scrollTo(0, 0)
-    })
-</script>
+{% include 'products/includes/scroll-script.html' %}
 {% endblock %}
