@@ -76,6 +76,6 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <script src="{% static 'profiles/js/countryfield.js' %}"></script>
+{{ block.super }}
+{% include 'profiles/includes/countryfield-script.html' %}
 {% endblock %}
