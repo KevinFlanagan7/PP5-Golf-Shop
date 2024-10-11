@@ -1,6 +1,7 @@
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+
 def cart_contents(request):
 
     cart_items = []
@@ -29,11 +30,11 @@ def cart_contents(request):
                     'product': product,
                     'size': size,
                 })
-    
+
     context = {
         'cart_items': cart_items,
         'grand_total': grand_total,
-        'product_count': product_count, 
+        'product_count': product_count,
     }
 
     return context
