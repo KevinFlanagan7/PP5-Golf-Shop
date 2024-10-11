@@ -153,6 +153,8 @@
 
 <details><summary>HTML files</summary>
 
+A few errors found with HTML files, see details below:
+
 - Home page
 
     ![Home](/documentation/code_validation/home-html.png)
@@ -237,6 +239,8 @@
 
 <details><summary>CSS files</summary>
 
+No errors found on the css file below:
+
 - Base.css
 
     ![Base](/documentation/code_validation/base-css.png)
@@ -255,9 +259,31 @@
 
 <details><summary>JavaScript files</summary>
 
-- script.js
+No erros found with any of the JS files below:
 
-    ![JS]()
+- Quantity selector script
+
+    ![Quantity](/documentation/code_validation/quantity-selector-js.png)
+
+- Scroll icon script
+
+    ![Quantity](/documentation/code_validation/scroll-js.png)
+
+- Update and Remove product script
+
+    ![Update](/documentation/code_validation/update-remove-js.png)
+
+- Country Select field script
+
+    ![Country](/documentation/code_validation/scroll-js.png)
+
+- Image selector script
+
+    ![Image](/documentation/code_validation/image-selector-js.png)
+
+- Stripe elements script
+
+    ![Stripe](/documentation/code_validation/stripe-elements-js.png)
 
 </details>
 
