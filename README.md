@@ -239,7 +239,7 @@ A few errors found with HTML files, see details below:
 
 <details><summary>CSS files</summary>
 
-No errors found on the css file below:
+No errors found on the css files below:
 
 - Base.css
 
@@ -275,7 +275,7 @@ No erros found with any of the JS files below:
 
 - Country Select field script
 
-    ![Country](/documentation/code_validation/scroll-js.png)
+    ![Country](/documentation/code_validation/countryfield-js.png)
 
 - Image selector script
 
