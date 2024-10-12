@@ -4,13 +4,13 @@ from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import messages
 
+
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
             contact = form.save()
 
-            # Send an email
             send_mail(
                 subject=f"New message from {contact.email}",
                 message=contact.message,
@@ -19,9 +19,10 @@ def contact(request):
                 fail_silently=False,
             )
 
-            messages.success(request, 'Your message has been sent successfully!')
+            messages.success(request,
+                             'Your message has been sent successfully!')
 
-            return redirect('contact') 
+            return redirect('contact')
     else:
         form = ContactForm()
 
