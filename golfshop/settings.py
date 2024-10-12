@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'wishlist',
+    'faq',
 
     # Other
     'storages',
