@@ -65,3 +65,7 @@ select option[value=""] {
   height: 100%;
   font-size: 2rem
 }
+
+.order-btn{
+  background-color: rgb(0, 0, 255);
+}
