@@ -70,6 +70,10 @@ main {
     height: 100%;
 }
 
+.home-img {
+    min-height: 30vh;
+}
+
 /* Bootstrap messages */
 
 .message-container {
