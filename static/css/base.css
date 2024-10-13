@@ -123,6 +123,10 @@ main {
     border-radius: 0;
 }
 
+.footer-links a{
+    color: rgb(0, 0, 255);
+}
+
 
 /* Media Queries */
 
