@@ -101,8 +101,33 @@ Represents frequently asked questions along with their answers. This helps users
 
 #### Overview
 
+I used Agile methodology to plan my project. It allowed me to break down the project into smaller manageable clear tasks. It made it easier to prioritize tasks, to track progress and to maintain momentum during development. 
+
+
 
 #### Epics & Milestones
+
+My project is made up of several Epics which are large bodies of work that can be broken down into smaller, more manageable tasks. They provide an overview of the main functionalities to deliver, there are six milestones associated to the projects Epics. For my project, the Milestones with associated Epics, stories and tasks can be viewed at the links below:
+
+- [Milestone 1 - Initial Set Up](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/1)
+
+- [Milestone 2 - Homepage creation](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/2)
+
+- [Milestone 3 - Product setup, filtering and searching](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/3)
+
+- [Milestone 4 - Shopping cart setup](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/4)
+
+- [Milestone 5 - Heroku deployment](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/5)
+
+- [Milestone 6 - Checkout app and stripe payment setup](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/6)
+
+- [Milestone 7 - Profile app, Wishlist app and Product Admin setup](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/7)
+
+- [Milestone 8 - Page Footer setup](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/8)
+
+- [Milestone 9 - ]()
+
+- [Milestone 10 - ]()
 
 
 \
@@ -113,6 +138,11 @@ Represents frequently asked questions along with their answers. This helps users
 
 #### Github Project
 
+The Github projects tool was used to implement Agile development practices efficiently. By using Kanban boards, tasks were visually managed and tracked through various stages of completion. The MoSCoW (Must have, Should have, Could have & Won't have) method was used to prioritize features and tasks, view below links to the project's Kanban board and MoSCoW prioritization method:
+
+- [Kanban board]()
+
+- [MoSCoW Prioritization]()
 
 \
 &nbsp;
