@@ -231,6 +231,22 @@ A few errors found with HTML files, see details below:
 
     ![Contact](/documentation/code_validation/contact-html.png)
 
+- Password reset page
+
+    ![reset](/documentation/code_validation/password-reset-html.png)
+
+- Change password page
+
+    ![change](/documentation/code_validation/change-password-html.png)
+
+- Password changed page
+
+    ![changed](/documentation/code_validation/password-changed-html.png)
+
+- Verify email page
+
+    ![verify](/documentation/code_validation/verify-email.html.png)
+
 
 </details>
 
@@ -497,6 +513,217 @@ FAQ App files
 
 ### Lighthouse
 
+Lighthouse tests were run on all deployed pages for mobile and desktop, see results below:
+
+<details><summary>Home page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/home-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/home-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Products page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/products-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/home-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Product detail page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/product-detail-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/product-detail-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Cart page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/cart-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/cart-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Checkout page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/checkout-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/checkout-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Checkout success page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/checkout-success-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/checkout-success-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Login page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/login-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/login-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Password reset page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/password-reset-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/password-reset-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Sign up page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/signup-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/signup-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Product Admin page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/product-admin-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/product-admin-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Profile page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/profiles-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/profiles-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Wishlist page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/wishlist-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/wishlist-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Sign out page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/signout-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/signout-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>Contact Us page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/contact-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/contact-mobile-lighthouse.png)
+
+</details>
+
+<br>
+
+<details><summary>FAQ page</summary>
+
+- Desktop
+
+    ![desktop](/documentation/lighthouse/faq-lighthouse.png)
+
+- Mobile
+
+    ![mobile](/documentation/lighthouse/faq-mobile-lighthouse.png)
+
+</details>
+
+<br>
 
 ### Features Testing
 
