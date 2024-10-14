@@ -291,29 +291,201 @@ No erros found with any of the JS files below:
 
 <details><summary>Python files</summary>
 
-- model.py
+No errors for project files and each app, see below:
 
-    ![Model]()
-
-- views.py
-
-    ![Views]()
-
-- forms.py
-
-    ![Forms]()
-
-- urls.py
-
-    ![Urls]()
-
-- admin.py
-
-    ![Admin]()
+Golfshop Project files
 
 - settings.py
 
-    ![Settings]()
+    ![settings](/documentation/code_validation/settings-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/golfshop-urls-py.png)
+
+- views.py
+
+    ![Settings](/documentation/code_validation/golfshop-views-py.png)
+
+<br>
+
+Home App files
+
+- urls.py
+
+    ![urls](/documentation/code_validation/home-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/home-views-py.png)
+
+<br>
+
+Product App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/products-admin-py.png)
+
+- forms.py
+
+    ![forms](/documentation/code_validation/products-forms-py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/products-models-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/products-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/products-views-py.png)
+
+- widgets.py
+
+    ![widgets](/documentation/code_validation/products-widgets-py.png)
+
+<br>
+
+Cart App files
+
+- cart_tools.py
+
+    ![tools](/documentation/code_validation/cart-tools-py.png)
+
+- contexts.py
+
+    ![context](/documentation/code_validation/cart-contexts-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/cart-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/cart-views-py.png)
+
+<br>
+
+Checkout App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/checkout-admin-py.png)
+
+- forms.py
+
+    ![forms](/documentation/code_validation/checkout-forms-py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/checkout-models-py.png)
+
+- signals.py
+
+    ![signals](/documentation/code_validation/checkout-signals-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/checkout-urls-py.png)
+
+- views.py
+
+    ![Settings](/documentation/code_validation/checkout-views-py.png)
+
+- webhook_handler.py
+
+    ![handler](/documentation/code_validation/checkout-webhook-handler-py.png)
+
+- webhooks.py
+
+    ![webhooks](/documentation/code_validation/checkout-webhooks-py.png)
+
+<br>
+
+Profiles App files
+
+- forms.py
+
+    ![forms](/documentation/code_validation/profiles-forms-py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/profiles-models-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/profiles-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/profiles-views-py.png)
+
+<br>
+
+Contact App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/contact-admin-py.png)
+
+- forms.py
+
+    ![forms](/documentation/code_validation/contact-forms-py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/contact-models-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/contact-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/contact-views-py.png)
+
+<br>
+
+Wishlist App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/wishlist-admin-py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/wishlist-models-py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/wishlist-urls-py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/wishlist-views-py.png)
+
+<br>
+
+FAQ App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/faq-admin.py.png)
+
+- models.py
+
+    ![models](/documentation/code_validation/faq-models.py.png)
+
+- urls.py
+
+    ![urls](/documentation/code_validation/faq-urls.py.png)
+
+- views.py
+
+    ![views](/documentation/code_validation/faq-views.py.png)
 
 </details>
    
