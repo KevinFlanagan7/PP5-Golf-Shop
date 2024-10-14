@@ -15,7 +15,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -29,7 +29,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -43,7 +43,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -53,15 +53,47 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
 ### Database Schema
 
+![Database schema](/documentation/database/database.png)
+
+#### User model
+Represents the users of the application. Each user has a unique username and email, along with a hashed password for authentication. It has a One-to-One relationship so each user has a corresponding UserProfile.
+
+#### UserProfile model
+Maintains default delivery information and order history for a user. It allows storing additional details related to a user beyond the basic authentication information. It has a One-to-One relationship with user model and also a One-to-Many relationship with orders so a user can have multiple orders.
+
+#### Category model
+Represents product categories, allowing for better organization and classification of products in the shop. It has a One-to-Many relationship so multiple products associated with each category.
+
+#### Product model
+Represents items available for sale in the shop. Each product is categorized and can have associated attributes such as size and price. It has a One-to-One relationship with a category so each product is associated with a single Category. It also has a One-to-Many relationship with order line item and wishlist item so a product can be linked with multiple order line items and user wishlists.
+
+#### Order model
+Represents a customer's order, containing all necessary information for processing and delivery. It includes customer details and the order's total amounts. It has Many-to-One relationship with user profile so multiple oreders can be linked to a user profile or null for a guest user. It also has a One-to-Many with order line item so an order can have multiple products.
+
+#### OrderLineItem model
+Represents a specific product included in an order. It includes information on product size, quantity, and the total price for that line item. It has a Many-to-One relationship so each order line item is linked to a single order and product.
+
+#### Contact model
+Represents a contact request made by users to the application. It stores the user's name, email, and their message. It operates independently without relationships to other models.
+
+#### Wishlist model
+Represents a user's wishlist, which can hold multiple products. It allows users to save items for future consideration. It has a One-to-One relationship so it is Linked to a single UserProfile.
+
+#### WishlistItem model
+Represents a specific product in a user's wishlist. It tracks when the item was added. It has a Many-to-One relationship so each wishlist item is linked to a single Wishlist and each wishlist item is linked to a single Product.
+
+#### FAQ model
+Represents frequently asked questions along with their answers. This helps users find information quickly. It operates independently without relationships to other models.
+
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
     
@@ -75,7 +107,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -84,7 +116,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -97,7 +129,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -108,7 +140,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -128,7 +160,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -143,7 +175,7 @@
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -507,7 +539,7 @@ FAQ App files
    
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -735,7 +767,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
         
@@ -749,7 +781,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -757,7 +789,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -766,7 +798,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -777,7 +809,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -817,7 +849,7 @@ The site was deployed using Heroku following the steps below:
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -853,7 +885,7 @@ To copy the repository to your local machine in Github follow steps below:
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
 
@@ -868,6 +900,6 @@ My mentor For help and advice:
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#golf-shop)
 \
 &nbsp;
