@@ -35,11 +35,26 @@
 
 ### Fonts
 
+I have used the default font families provided by Bootstrap for different devices and browsers. This ensures optimal readability and a consistent look. Below is a list of the default fonts depending on the device and browser used: 
+
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji".
+
+
 ### Icons
+
+I have used the [Font Awesome library](https://fontawesome.com/ "Font Awesome") for the social media icons in the footer and a [Favicon generator](https://favicon.io/favicon-converter/ "Favicon") for the browser tab icon.
 
 ### Structure
 
+I have built the website with a mobile first mindset using the iPhone SE (375px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
 
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
 
 \
 &nbsp;
@@ -103,8 +118,6 @@ Represents frequently asked questions along with their answers. This helps users
 
 I used Agile methodology to plan my project. It allowed me to break down the project into smaller manageable clear tasks. It made it easier to prioritize tasks, to track progress and to maintain momentum during development. 
 
-
-
 #### Epics & Milestones
 
 My project is made up of several Epics which are large bodies of work that can be broken down into smaller, more manageable tasks. They provide an overview of the main functionalities to deliver, there are six milestones associated to the projects Epics. For my project, the Milestones with associated Epics, stories and tasks can be viewed at the links below:
@@ -149,6 +162,36 @@ The Github projects tool was used to implement Agile development practices effic
 [Back to Top](#golf-shop)
 \
 &nbsp;
+
+## SEO (Search Engine Optimization)
+To optimize the visibility of the Golf Shop in search engine results, the following SEO strategies have been implemented:
+
+- Meta Tags: Included detailed meta descriptions and meta keywords to improve relevance in search results. The keywords include both short and long-tail terms, such as:
+
+- Short-tail: "golf shop," "golf clubs," "golf shoes"
+Long-tail: "premium golf clubs for sale," "Titleist GT golf drivers online," "buy Adidas golf shoes with fast shipping"
+
+- Sitemap: A sitemap.xml file has been generated to help search engines efficiently crawl the site. It includes URLs for all key pages like product categories (e.g., drivers, bags, shoes), individual product listings, and informational pages such as contact and FAQ.
+
+- robots.txt: A robots.txt file has been added to control search engine crawlers' access, allowing them to index the most important pages while avoiding less relevant content, like certain backend files or administrative URLs.
+
+- Semantic HTML: The use of semantic HTML elements like `<header>`, `<nav>`, `<section>`, and `<footer>` helps search engines understand the structure of the page better, also including detailed `alt` description for images improves accessibility and SEO ranking. By clearly defining sections of content, these tags help search engines identify important content like product details, navigation menus, and footers, boosting the chances of appearing in relevant search queries.
+
+By utilizing these SEO techniques and following semantic HTML best practices, the site is designed to improve its visibility in search engines for users searching for golf equipment, leading to better rankings and increased traffic.
+
+## Marketing
+
+The Golf shop is a B2C (business-to-consumer) business, focused on providing high-quality golf equipment directly to individual customers. Several marketing tools and strategies have been implemented to enhance the customer experience, engage with visitors, and build brand loyalty.
+
+- Mailchimp Newsletter Sign-Up: A newsletter sign-up form is integrated in the site’s footer using Mailchimp. This allows visitors to subscribe easily to regular updates about new product releases and exclusive deals.
+
+- Facebook Page: The Golf Shop connects with customers on social media via its dedicated Facebook page. This platform is used to engage with the golf community, post updates about new arrivals and promote content. By interacting with followers on Facebook, the shop builds brand awareness and developes an active customer base. The `rel="noopener external"`attribute is added to link for thye golf shop site security and tells search engines that the site is external.
+
+    ![Facebook page](/documentation/features/facebook-page.png)
+
+- Privacy Policy: A detailed privacy policy is included to inform customers about how their personal data is collected, used, and protected. This ensures compliance with privacy laws and builds trust with visitors, assuring them that their information, particularly email addresses gathered via the Mailchimp newsletter, is handled securely. Having a clear privacy policy is essential for customer trust and retention.
+
+- Contact Us and FAQ Links: The footer contains helpful links to the Contact Us page and FAQ section, providing direct access to customer service and commonly asked questions. These links enhance the user experience by offering clear paths for support and additional information, making it easy for customers to reach out for assistance or find answers to product-related queries.
 
 ## Features
 
