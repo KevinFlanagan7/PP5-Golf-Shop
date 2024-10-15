@@ -4,14 +4,55 @@
 
 ## Project Goals
 
-
-
+The goal of the Golf Shop project is to create a user-friendly, fully responsive e-commerce website that provides both guest users and signed-up users with an easy and enjoyable shopping experience. The site showcases a wide range of golf products, while offering features like user account management, wishlist functionality, and a seamless cart checkout for registered users. Guest users can browse products and make purchases without creating an account, while signed-up users benefit from additional features like order history and saved preferences. The project also includes features such as newsletters, product search, and a FAQ section to improve user engagement, boost online sales, and enhance customer satisfaction.
 
 ## UX
 
 ## User Stories
 
--  As a user, 
+### Guest User
+
+- As a guest user, I want the option of an easy and straightforward registration process.
+
+- As a guest user, I want to browse the product catalog without needing to create an account.
+
+- As a guest user, I want to search for specific golf products easily.
+
+- As a guest user, I want to filter products by categories such as clubs, shoes, or bags.
+
+- As a guest user, I want to view detailed product descriptions, including images and ratings.
+
+- As a guest user, I want to add items to my shopping cart without creating an account.
+
+- As a guest user, I want to make a purchase by summitting my details and using a secure checkout process.
+
+- As a guest user, I want to receive an order confirmation email after completing a purchase.
+
+- As a guest user, I want to contact the store through a "Contact Us" page if I have any questions.
+
+- As a guest user, I want to access a FAQ section to find answers to common questions about products and services.
+
+### Registered User
+
+- As a registered user, I want to log into my account to access personalized features.
+
+- As a registered user, I want to save items to a wishlist to view or purchase later.
+
+- As a registered user, I want to view my order history to track previous purchases.
+
+- As a registered user, I want to save my shipping information for faster checkouts.
+
+- As a registered user, I want to update my account information, including my address.
+
+- As a registered user, I want to receive an order confirmation email after completing a purchase.
+
+### Super User
+
+- As a super user, I want to easily add new products so that I can keep the product offerings up to date.
+
+- As a super user, I want to edit existing products to update details like prices, descriptions and images to ensure accurate information is available to customers.
+
+- As a super user, I want to delete products to remove items that are no longer available for sale.
 
 \
 &nbsp;
