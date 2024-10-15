@@ -908,15 +908,15 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
     *Chrome*
 
-    ![Chrome]() 
+    ![Chrome](/documentation/features/chrome.png) 
 
     *Edge*
 
-    ![Edge]()
+    ![Edge](/documentation/features/edge.png)
 
     *Firefox*
 
-    ![Firefox]()
+    ![Firefox](/documentation/features/firefox.png)
 
 
 \
@@ -940,7 +940,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 ### AWS configuration
 
-Golfshop uses Amazon Web Services (AWS) to store static and media files securely in the cloud, it was setup following steps below:
+Golfshop uses Amazon Web Services (AWS) to store static and media files securely in the cloud, it was setup by following the steps below:
 
 #### Create and Configure an S3 Bucket
     
@@ -1048,6 +1048,43 @@ Golfshop uses Amazon Web Services (AWS) to store static and media files securely
 -   Within your S3 bucket, create a new folder named `media`.
 
 -   Upload your media files into this folder and set "Public read access."
+
+### Stripe
+
+The GOLFshop uses Stripe as its primary payment system to securely process e-commerce transactions, it was setup by following the steps below:
+    
+-   Go to [stripe.com](https://stripe.com) and create an account. Log in to your Stripe dashboard.
+    
+-   From your Stripe dashboard, locate the "API Keys" section under "Developers."
+    -   Retrieve the following keys:
+        -   **STRIPE_PUBLIC_KEY**: Your Publishable Key (starts with `pk`)
+        -   **STRIPE_SECRET_KEY**: Your Secret Key (starts with `sk`)
+
+-   These keys will be used to authenticate your application with Stripe.
+    
+-   To handle scenarios where a user may close the payment page prematurely, set up Stripe Webhooks to receive real-time payment updates.
+
+- In your Stripe dashboard:
+    -   Navigate to "Developers" and select "Webhooks."
+    -   Click "Add Endpoint."
+    -   Enter your endpoint URL (e.g., `https://pp5-golf-shop-a06971bbe403.herokuapp.com/wh/`).
+    -   Select "Receive all events" to capture all relevant payment events.
+    -   Click "Add Endpoint" to complete the process.
+
+- This will generate a new key:
+    -   STRIPE_WH_SECRET: Your Webhook Signing Secret.
+
+- Configure settings.py with Stripe settings and add keys to config vars on Heroku.
+
+#### Testing Payments
+    
+-   Stripe provides a test mode to simulate payment transactions.
+
+-   Use the following test card details for interactive testing:
+    -   **Card Number:** `4242 4242 4242 4242`
+    -   **Expiry Date:** Any valid future date
+    -   **CVC:** Any three-digit number
+    -   **Other Fields:** Use any value for other fields.
 
 ### Heroku
 
