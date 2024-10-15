@@ -179,9 +179,9 @@ My project is made up of several Epics which are large bodies of work that can b
 
 - [Milestone 8 - Page Footer setup](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/8)
 
-- [Milestone 9 - ]()
+- [Milestone 9 - User-Friendly Website Styling](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/10)
 
-- [Milestone 10 - ]()
+- [Milestone 10 - README documentation and Testing](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/11)
 
 
 \
@@ -194,9 +194,9 @@ My project is made up of several Epics which are large bodies of work that can b
 
 The Github projects tool was used to implement Agile development practices efficiently. By using Kanban boards, tasks were visually managed and tracked through various stages of completion. The MoSCoW (Must have, Should have, Could have & Won't have) method was used to prioritize features and tasks, view below links to the project's Kanban board and MoSCoW prioritization method:
 
-- [Kanban board]()
+- [Kanban board](https://github.com/users/KevinFlanagan7/projects/6)
 
-- [MoSCoW Prioritization]()
+- [MoSCoW Prioritization](https://github.com/KevinFlanagan7/PP5-Golf-Shop/issues?q=is%3Aissue+is%3Aclosed)
 
 \
 &nbsp;
@@ -917,7 +917,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
     |Super User Story|Testing|Result|
     |---|---|---|
-    |As a super user, I want to easily add new products so that I can keep the product offerings up to date.|Logged in as a super user and now had access to the product admin page, tested adding a new product in form and verified it was displayed in the product catalog.|:white_check_mark:|
+    |As a super user, I want to easily add new products so that I can keep the product offerings up to date.|Logged in as a super user and now had access to the product admin page, tested adding a new product in form and verified it was displayed in the product listing.|:white_check_mark:|
     |As a super user, I want to edit existing products to update details like prices, descriptions, and images to ensure accurate information is available to customers.|Logged in as a super user, confirmed that the edit option was now available on the product details page. Edited a product and verified the updates were correctly reflected in the product listing.|:white_check_mark:|
     |As a super user, I want to delete products to remove items that are no longer available for sale.|Logged in as a super user, confirmed that the delete option was now available on the product details page. Deleted a product and verified the updates were correctly reflected in the product listing.|:white_check_mark:|
     
