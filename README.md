@@ -887,11 +887,39 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
         
 ### User Stories Testing
 
-- Table of User Story Testing.
+- Guest User Story Testing:
 
-    |User Story|Testing|Result|
+    |Guest User Story|Testing|Result|
     |---|---|---|
-    |As a user, ||:white_check_mark:|
+    |As a guest user, I want the option of an easy and straightforward registration process. |Navigated to the registration page and confirmed that the registration form is simple and easy to complete.|:white_check_mark:|
+    |As a guest user, I want to browse the product catalog without needing to create an account.|Navigated through the product catalog and confirmed that products are accessible without account creation.|:white_check_mark:|
+    |As a guest user, I want to search for specific golf products easily.|Tested the search functionality by entering keywords related to golf products and confirmed accurate results.|:white_check_mark:|
+    |As a guest user, I want to filter products by categories such as clubs, shoes, or bags.|Tested product filtering options by selecting categories in nav bar and home page images like clubs, shoes and bags, confirmed relevant results.|:white_check_mark:|
+    |As a guest user, I want to view detailed product descriptions, including images and ratings.|Navigated to various product detail pages by clicking on product and verified the presence of descriptions, images, and ratings.|:white_check_mark:|
+    |As a guest user, I want to add items to my shopping cart without creating an account.|Added items to the cart without being logged in, and confirmed that the cart updates correctly.|:white_check_mark:|
+    |As a guest user, I want to make a purchase by submitting my details and using a secure checkout process.|Tested the checkout process by submitting guest user details and verified that the payment process is secure.|:white_check_mark:|
+    |As a guest user, I want to receive an order confirmation email after completing a purchase.|Completed a purchase and checked the inbox for the order confirmation email successfully.|:white_check_mark:|
+    |As a guest user, I want to contact the store through a "Contact Us" page if I have any questions.|Navigated to the "Contact Us" page link in footer, filled out the form, and confirmed successful submission.|:white_check_mark:|
+    |As a guest user, I want to access a FAQ section to find answers to common questions about products and services.|Navigated to the FAQ section by clicking on link in footer and confirmed list of common questions with clear answers.|:white_check_mark:|
+
+- Registered User Story Testing:
+
+    |Registerd User Story|Testing|Result|
+    |---|---|---|
+    |As a registered user, I want to log into my account to access personalized features.|Tested logging into the user account and confirmed access to personalized features like My Profile and My Wiahliat.|:white_check_mark:|
+    |As a registered user, I want to save items to a wishlist to view or purchase later.|Tested adding items to the wishlist now in product details page and confirmed they are saved to My Wishlist.|:white_check_mark:|
+    |As a registered user, I want to view my order history to track previous purchases.|Logged in and navigated to the My Profile page, confirming that previous orders are displayed correctly.|:white_check_mark:|
+    |As a registered user, I want to save my shipping information for faster checkouts.|Navigated to My Profile page and entered shipping information in form and confirmed it is saved for future purchases.|:white_check_mark:|
+    |As a registered user, I want to update my account information, including my address.|Navigated to My Profile, updated the address, and verified the changes were saved.|:white_check_mark:|
+    |As a registered user, I want to receive an order confirmation email after completing a purchase.|Completed a purchase and verified that an order confirmation email was received to my registered email address.|:white_check_mark:|
+
+- Super User Story Testing:
+
+    |Super User Story|Testing|Result|
+    |---|---|---|
+    |As a super user, I want to easily add new products so that I can keep the product offerings up to date.|Logged in as a super user and now had access to the product admin page, tested adding a new product in form and verified it was displayed in the product catalog.|:white_check_mark:|
+    |As a super user, I want to edit existing products to update details like prices, descriptions, and images to ensure accurate information is available to customers.|Logged in as a super user, confirmed that the edit option was now available on the product details page. Edited a product and verified the updates were correctly reflected in the product listing.|:white_check_mark:|
+    |As a super user, I want to delete products to remove items that are no longer available for sale.|Logged in as a super user, confirmed that the delete option was now available on the product details page. Deleted a product and verified the updates were correctly reflected in the product listing.|:white_check_mark:|
     
 \
 &nbsp;
