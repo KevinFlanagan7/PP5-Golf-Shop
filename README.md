@@ -168,10 +168,10 @@ To optimize the visibility of the Golf Shop in search engine results, the follow
 
 - Meta Tags: Included detailed meta descriptions and meta keywords to improve relevance in search results. The keywords include both short and long-tail terms, such as:
 
-- Short-tail: "golf shop," "golf clubs," "golf shoes"
-Long-tail: "premium golf clubs for sale," "Titleist GT golf drivers online," "buy Adidas golf shoes with fast shipping"
+    - Short-tail: "golf shop," "golf clubs," "golf shoes"
+    - Long-tail: "premium golf clubs for sale," "Titleist GT golf drivers online," "buy Adidas golf shoes with fast shipping"
 
-- Sitemap: A sitemap.xml file has been generated to help search engines efficiently crawl the site. It includes URLs for all key pages like product categories (e.g., drivers, bags, shoes), individual product listings, and informational pages such as contact and FAQ.
+- Sitemap: A sitemap.xml file has been generated to help search engines efficiently crawl the site. It includes URLs   for all key pages like product categories (e.g., drivers, bags, shoes), individual product listings, and informational pages such as contact and FAQ.
 
 - robots.txt: A robots.txt file has been added to control search engine crawlers' access, allowing them to index the most important pages while avoiding less relevant content, like certain backend files or administrative URLs.
 
@@ -860,6 +860,32 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 ### Responsiveness
 
+- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness on different devices. Test results and screenshots below:
+
+    | Device                | Responsive >=768px | Responsive <768px | Landing page Images |
+    | --------------------- | ------------------ | ----------------- | ----------- | 
+    | iPhone SE             | N/A                | Good              | Good        |
+    | iPhone 6/7/8          | N/A                | Good              | Good        |
+    | iPad Pro              | Good               | N/A               | Good        |
+    | Desktop 1024px        | Good               | N/A               | Good        |
+    | Desktop > 1200px      | Good               | N/A               | Good        |
+
+    <details><summary>Responsiveness Screenshots</summary>
+
+    <br>
+
+    **Mobile**
+
+    | Home Page | Product Page | Cart Page |
+    | ---- | ----- | ------ |
+    | ![Home]() | ![Product]() | ![Cart]() |
+
+    **Desktop**
+
+    | Home Page | Product Page | Cart Page |
+    | ---- | ----- | ------ |
+    | ![Home]() | ![Product]() | ![Cart]() |  
+
 \
 &nbsp;
 [Back to Top](#golf-shop)
@@ -867,6 +893,30 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 &nbsp;
 
 ### Browser Compatibility
+
+- Table of Browsers tested:
+
+  | Browser | Intented Appearance | Intented Responsiveness | 
+    | --------| ------------------- | ----------------------- |
+    | Chrome  | Good | Good | 
+    | Edge    | Good | Good | 
+    | Firefox | Good | Good |
+
+    <details><summary>Browser compatibility Screenshots</summary>
+
+    <br>
+
+    *Chrome*
+
+    ![Chrome]() 
+
+    *Edge*
+
+    ![Edge]()
+
+    *Firefox*
+
+    ![Firefox]()
 
 
 \
@@ -887,6 +937,117 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 &nbsp;
 
 ## Deployment
+
+### AWS configuration
+
+Golfshop uses Amazon Web Services (AWS) to store static and media files securely in the cloud, it was setup following steps below:
+
+#### Create and Configure an S3 Bucket
+    
+-   Go to [aws.amazon.com](https://aws.amazon.com/), create accont and log in to your AWS Management Console.
+
+-   Search for "S3" in the AWS Management Console and create a new bucket.
+
+-   Name the bucket to match your Heroku app name and select the region closest to your target audience.
+
+-   Uncheck the "Block all public access" option and acknowledge that the bucket will be public (required for compatibility with Heroku).
+
+-   Under "Object Ownership," ensure "ACLs enabled" and "Bucket owner preferred" are selected.
+
+-   In the "Properties" tab, enable static website hosting.
+
+-   Set `index.html` as the index document and `error.html` as the error document, then click "Save".
+-   In the "Permissions" tab, add the following CORS configuration:
+    
+    `[
+      {
+        "AllowedHeaders": ["Authorization"],
+        "AllowedMethods": ["GET"],
+        "AllowedOrigins": ["*"],
+        "ExposeHeaders": []
+      }
+    ]` 
+    
+-   Copy your bucket's ARN (Amazon Resource Name).
+-   Go to the "Bucket Policy" tab and click on the "Policy Generator" link.
+    -   Configure the policy:
+        -   **Policy Type:** S3 Bucket Policy
+        -   **Effect:** Allow
+        -   **Principal:** *
+        -   **Actions:** `s3:GetObject`
+        -   **ARN:** Paste your bucket's ARN
+    -   Click "Add Statement" and "Generate Policy."
+    -   Copy the generated policy and paste it into the "Bucket Policy Editor":
+    
+    ```{
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::your-bucket-name/*"
+        }
+      ]
+    }```
+    
+-   Ensure the `Resource` field ends with `/*` and click "Save."
+    
+-   In the "Access Control List" (ACL) section, click "Edit" and enable "List" for Everyone (public access). Accept the warning prompt.
+
+-   If the edit option is disabled, ensure the "Object Ownership" settings have ACLs enabled.
+
+#### Configure IAM (Identity and Access Management):**
+    
+-   Navigate to the IAM service and select "User Groups."
+
+-   Click "Create New Group," and name it appropriately.
+
+-   Select the newly created group and go to the "Permissions" tab.
+
+-   Click "Add Permissions" > "Attach Policies."
+
+-   In the "JSON" tab, click "Import Managed Policy" and search for `AmazonS3FullAccess`.
+
+-   Import the policy and modify it to limit access to your specific bucket:
+    
+    ```{
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "s3:*",
+          "Resource": [
+            "arn:aws:s3:::your-bucket-name",
+            "arn:aws:s3:::your-bucket-name/*"
+          ]
+        }
+      ]
+    }```
+    
+    -   Click "Review Policy" and name it (e.g., `policy-teacup-tales`), then click "Create Policy."
+
+#### Add Users and Assign Permissions
+    
+-   Go back to "User Groups," select your group, and click "Attach Policy."
+
+-   Select your custom policy and attach it.
+
+-   Click "Add User" and name it appropriately.
+
+-   Select "Programmatic Access" and add the user to your group.
+
+-   Download the CSV file containing the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+
+#### Heroku Integration
+    
+-   Remove `DISABLE_COLLECTSTATIC` from Heroku Config Vars and add AWS keys to enable AWS management of static files.
+
+- Configure settings.py file with AWS settings
+
+-   Within your S3 bucket, create a new folder named `media`.
+
+-   Upload your media files into this folder and set "Public read access."
 
 ### Heroku
 
