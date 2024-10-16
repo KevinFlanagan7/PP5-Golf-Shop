@@ -1,6 +1,6 @@
-![Logo]()
+![Logo](/documentation/features/logo.png)
 
-# Golf Shop
+# Welcome to the GOLFshop
 
 ## Project Goals
 
@@ -236,9 +236,58 @@ The Golf shop is a B2C (business-to-consumer) business, focused on providing hig
 
 ## Features
 
-## Existing Features
+### Guest Features
 
-### Home
+<details><summary>Home page</summary>
+
+<br>
+
+The home page includes three sectioms, the header, the main landing page and the footer section, details below:
+
+**Header**
+
+![header](/documentation/features/header.png)
+
+- The header is part of the base.html template, it contains the GOLFshop name and logo which links back to home page. 
+
+- Product navigation links and a search product functionality field.
+
+- A My Account dropdown menu to give the user the option to register an account or login if already registered.
+
+- A cart icon which links to the cart page and updates total when products are.
+
+
+![Nav mob](/documentation/features/header-mobile.png)
+
+- For smaller screen sizes the logo, navigation links and search field collaspe down to dropdown menues.
+
+**Landing**
+
+![Landing page](/documentation/features/landing-page.png)
+
+- The main landing page content is the index.html template, it contains the hero image advertising latest product and links to all products page.
+
+- The four images below the hero image are site products which link to the four product categories.
+
+![Landing mobile](/documentation/features/landing-mobile.png)
+
+- The category images reduce down to a row of two for smaller screen size so the site is responsive for all screen sizes.
+
+**Footer**
+
+![Footer](/documentation/features/footer.png)
+
+- The footer is also part of the base.html template and contains two sections, the mailchimp news letter subscription and the information section.
+
+- The Information section has links to the sites facebook page, a contact us form, FAQ page and the sites privacy policy
+
+![Footer mobile](/documentation/features/footer-mobile.png)
+
+- Again for smaller screen sizes the footer reduces down to one column to maintain responsiveness.
+
+
+
+</details>
 
 
 \
