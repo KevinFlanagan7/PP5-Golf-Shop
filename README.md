@@ -228,7 +228,13 @@ The Golf shop is a B2C (business-to-consumer) business, focused on providing hig
 
 - Facebook Page: The Golf Shop connects with customers on social media via its dedicated Facebook page. This platform is used to engage with the golf community, post updates about new arrivals and promote content. By interacting with followers on Facebook, the shop builds brand awareness and developes an active customer base. The `rel="noopener external"`attribute is added to link for thye golf shop site security and tells search engines that the site is external.
 
+    <details><summary>Facebook page</summary>
+
+    <br>
+
     ![Facebook page](/documentation/features/facebook-page.png)
+
+<br>
 
 - Privacy Policy: A detailed privacy policy is included to inform customers about how their personal data is collected, used, and protected. This ensures compliance with privacy laws and builds trust with visitors, assuring them that their information, particularly email addresses gathered via the Mailchimp newsletter, is handled securely. Having a clear privacy policy is essential for customer trust and retention.
 
@@ -418,7 +424,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 ![Contact Us](/documentation/features/contact.png)
 
-- Provides fields for the user to enter name, email and message to sent the GOLFshop email address.
+- Provides fields for the user to enter name, email and message to send to the GOLFshop email address.
 
 </details>
 
@@ -498,30 +504,83 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-<details><summary>Registered user</summary>
+<details><summary>Home page</summary>
 
 <br>
-
-**My Account options**
 
 ![Account options](/documentation/features/logged-in.png)
 
 - Registered users once logged in now have access to the My Profile and My Wishlist page from the account menu.
 
-- Also now has option to log out.
+- Also now has the option to log out.
+
+</details>
 
 <br>
 
-**
+<details><summary>Product details page</summary>
 
+<br>
 
+![Wishlist](/documentation/features)
 
+- Page now has the add to wishlist button.
 
+</details>
 
+<br>
 
+<details><summary>My Profile page</summary>
 
+<br>
 
+![My Profile](/documentation/features)
 
+- Form to enter and update registered user details.
+
+- List of order history diaplayed.
+
+</details>
+
+<br>
+
+<details><summary>Checkout page</summary>
+
+<br>
+
+![Checkout](/documentation/features)
+
+- Checkout form populated with details entered in My Profile page.
+
+</details>
+
+<br>
+
+<details><summary>My Wishlist page</summary>
+
+<br>
+
+![My Wishlist](/documentation/features)
+
+- List of products that have been added from the product details page with the option to remove.
+
+- When user clicks on wishlist product they are directed to that product's detail page.
+
+</details>
+
+<br>
+
+<details><summary>Contact Us page</summary>
+
+<br>
+
+![Contact Us](/documentation/features)
+
+- Username and email field populated with registration details.
+
+- Registered users just have to type in their message and send.
+
+</details>
 
 \
 &nbsp;
