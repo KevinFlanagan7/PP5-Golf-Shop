@@ -236,7 +236,7 @@ The Golf shop is a B2C (business-to-consumer) business, focused on providing hig
 
 ## Features
 
-### Guest Features
+### Guest user features
 
 <details><summary>Home page</summary>
 
@@ -376,6 +376,8 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - Provides a checkout form for the user to provide contact and shipping details.
 
+- Links to create an account or login so details in the form can be saved.
+
 - Displays the order summary and total cost.
 
 - Option to enter card details and complete order with a message informing user the amount card will be charged.
@@ -407,6 +409,60 @@ The home page includes three sectioms, the header, the main landing page and the
 - The checkout success page reduces down to one column for smaller screen sizes.
 
 </details>
+
+### Registered user features
+
+<details><summary>Registration pages</summary>
+
+<br>
+
+**Registration page**
+
+![Register](/documentation/features/registration.png)
+
+**Verify email page**
+
+![Verify](/documentation/features/verify-email.png)
+
+**Confirm email page**
+
+![Confirm](/documentation/features/confirm-email.png)
+
+**Log in page**
+
+![Login](/documentation/features/login.png)
+
+- When the registration form is completed and the user clicks sign up an email is sent to the entered email address and the user is directed to the verify email page.
+
+- When the user clicks on the link provided in the email they are directed to the confirm email page.
+
+- When the user clicks on confirm they are directed to the login page where they now can enter their details and log in to the site.
+
+**Forgot password page**
+
+![Forgot](/documentation/features/forgot-password.png)
+
+**Password reset page**
+
+![Password reset](/documentation/features/password-reset.png)
+
+**Change password page**
+
+![Change password](/documentation/features/change-password.png)
+
+**Password changed page**
+
+![Password changed](/documentation/features/password-changed.png)
+
+- When the user click on Forgot password link they are directed to to the password reset page with a message that a password reset email has been sent.
+
+- When user clicks on link in email they are directed to the change password page.
+
+- When new password is entered the user is direct to the Password changed page and they now can continue to the login and log in with new password.
+
+</details>
+
+
 
 
 
