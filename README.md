@@ -256,8 +256,9 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - A cart icon which links to the cart page and updates total when products are.
 
+<br>
 
-![Nav mob](/documentation/features/header-mobile.png)
+![Header mob](/documentation/features/header-mobile.png)
 
 - For smaller screen sizes the logo, navigation links and search field collaspe down to dropdown menues.
 
@@ -270,6 +271,8 @@ The home page includes three sectioms, the header, the main landing page and the
 - The main landing page content is the index.html template, it contains the hero image advertising latest product and links to all products page.
 
 - The four images below the hero image are site products which link to the four product categories.
+
+<br>
 
 ![Landing mobile](/documentation/features/landing-mobile.png)
 
@@ -284,6 +287,8 @@ The home page includes three sectioms, the header, the main landing page and the
 - The footer is also part of the base.html template and contains two sections, the mailchimp news letter subscription and the information section.
 
 - The Information section has links to the sites facebook page, a contact us form, FAQ page and the sites privacy policy
+
+<br>
 
 ![Footer mobile](/documentation/features/footer-mobile.png)
 
@@ -307,6 +312,8 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - The links in the header filters the products down to their category and displayes either drivers, bags, irons or shoes.
 
+<br>
+
 ![Products mobile](/documentation/features/products-mobile.png)
 
 - The products page reduces down to one column for smaller screen sizes.
@@ -327,6 +334,8 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - A back to products page option if user does not want to purchae product.
 
+<br>
+
 ![Products detail mobile](/documentation/features/product-details-mobile.png)
 
 - The product details page reduces down to one column for smaller screen sizes.
@@ -339,7 +348,63 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![Cart]()
+![Cart](/documentation/features/cart.png)
+
+- Displays list of products in the cart
+
+- Option to update quantity or remove product from the cart.
+
+- Displays the subtotal and grand total of the cart.
+
+- Option to proceed to secure checkout or navigate back to products to continue shopping.
+
+<br>
+
+![Cart mobile](/documentation/features/cart-mobile.png)
+
+- The cart page reduces down to one column for smaller screen sizes.
+
+</details>
+
+<br>
+
+<details><summary>Checkout page</summary>
+
+<br>
+
+![Checkout](/documentation/features/checkout.png)
+
+- Provides a checkout form for the user to provide contact and shipping details.
+
+- Displays the order summary and total cost.
+
+- Option to enter card details and complete order with a message informing user the amount card will be charged.
+
+<br>
+
+![Checkout mobile](/documentation/features/checkout-mobile.png)
+
+- The checkout page reduces down to one column for smaller screen sizes.
+
+</details>
+
+<br>
+
+<details><summary>Checkout success page</summary>
+
+<br>
+
+![Checkout success](/documentation/features/checkout-success.png)
+
+- Displays the order summary, a Thank you message and taht a confirmation email will be sent to the address entered on the checkout form.
+
+- Option to go Back to products if the user and continue shopping.
+
+<br>
+
+![Checkout success mobile](/documentation/features/checkout-success-mobile.png)
+
+- The checkout success page reduces down to one column for smaller screen sizes.
 
 </details>
 
