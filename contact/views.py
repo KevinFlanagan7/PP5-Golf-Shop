@@ -24,6 +24,13 @@ def contact(request):
 
             return redirect('contact')
     else:
-        form = ContactForm()
+        if request.user.is_authenticated:
+            user = request.user
+            form = ContactForm(initial={
+                'email': user.email,
+                'name': user.username,
+            })
+        else:
+            form = ContactForm()
 
     return render(request, 'contact/contact.html', {'form': form})
