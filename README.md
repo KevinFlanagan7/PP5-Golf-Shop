@@ -261,6 +261,8 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - For smaller screen sizes the logo, navigation links and search field collaspe down to dropdown menues.
 
+<br>
+
 **Landing**
 
 ![Landing page](/documentation/features/landing-page.png)
@@ -272,6 +274,8 @@ The home page includes three sectioms, the header, the main landing page and the
 ![Landing mobile](/documentation/features/landing-mobile.png)
 
 - The category images reduce down to a row of two for smaller screen size so the site is responsive for all screen sizes.
+
+<br>
 
 **Footer**
 
@@ -285,9 +289,63 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - Again for smaller screen sizes the footer reduces down to one column to maintain responsiveness.
 
+</details>
 
+<br>
+
+<details><summary>Products page</summary>
+
+<br>
+
+![Products](/documentation/features/products.png)
+
+- The products page lists all the products on the site.
+
+- It includes the product iamge, name, price, category and rating.
+
+- A back to the top button is available so the user can easily come back to the top of the page after scrolling down through products.
+
+- The links in the header filters the products down to their category and displayes either drivers, bags, irons or shoes.
+
+![Products mobile](/documentation/features/products-mobile.png)
+
+- The products page reduces down to one column for smaller screen sizes.
 
 </details>
+
+<br>
+
+<details><summary>Product details page</summary>
+
+<br>
+
+![Products detail](/documentation/features/product-details.png)
+
+- Product details page give a more detailed description of the product.
+
+- A quantity selector field and the option to add to your cart for purchase.
+
+- A back to products page option if user does not want to purchae product.
+
+![Products detail mobile](/documentation/features/product-details-mobile.png)
+
+- The product details page reduces down to one column for smaller screen sizes.
+
+</details>
+
+<br>
+
+<details><summary>Cart page</summary>
+
+<br>
+
+![Cart]()
+
+</details>
+
+
+
+
 
 
 \
