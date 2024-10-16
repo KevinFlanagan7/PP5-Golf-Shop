@@ -410,6 +410,40 @@ The home page includes three sectioms, the header, the main landing page and the
 
 </details>
 
+<br>
+
+<details><summary>Contact Us page</summary>
+
+<br>
+
+![Contact Us](/documentation/features/contact.png)
+
+- Provides fields for the user to enter name, email and message to sent the GOLFshop email address.
+
+</details>
+
+<br>
+
+<details><summary>FAQ page</summary>
+
+<br>
+
+![FAQ](/documentation/features/faq.png)
+
+- Displays list of FAQs and answers.
+
+</details>
+
+<br>
+
+<details><summary>Privacy Policy page</summary>
+
+<br>
+
+![FAQ](/documentation/features/privacy.png)
+
+</details>
+
 ### Registered user features
 
 <details><summary>Registration pages</summary>
@@ -461,6 +495,26 @@ The home page includes three sectioms, the header, the main landing page and the
 - When new password is entered the user is direct to the Password changed page and they now can continue to the login and log in with new password.
 
 </details>
+
+<br>
+
+<details><summary>Registered user</summary>
+
+<br>
+
+**My Account options**
+
+![Account options](/documentation/features/logged-in.png)
+
+- Registered users once logged in now have access to the My Profile and My Wishlist page from the account menu.
+
+- Also now has option to log out.
+
+<br>
+
+**
+
+
 
 
 
