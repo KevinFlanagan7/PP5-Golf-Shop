@@ -778,7 +778,7 @@ The project implements validation for user inputs both on the frontend and backe
 
 ### Defensive design features
 
-Golfshop applies defensive design principles to maintain a secure and user-friendly experience. Users who attempt to access URLs they are not authorized to view such as product admin pages, guest users are directed to the login page while registered users are shown the appropriate error messages. Additionally, the site handles incorrect or broken URLs by displaying a custom 404 error page, guiding users back to the products page. See below examples:
+The project applies defensive design principles to maintain a secure and user-friendly experience. Users who attempt to access URLs they are not authorized to view such as product admin pages, guest users are directed to the login page while registered users are shown the appropriate error messages. Additionally, the site handles incorrect or broken URLs by displaying a custom 404 error page, guiding users back to the products page. See below examples:
 
 <details><summary>Defensive design</summary>
 
@@ -1538,8 +1538,39 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 ### Bugs
 
+During development of the project a few common issues were encountered. One such issue was the "Template not found" error, which typically occurred due to incorrect file paths or missing template files. Another frequent issue was related to static files, where the "load static" tag failed due to incorrect static file configurations or missing references in the template. These bugs were resolved by double-checking template directories and ensuring proper setup of static files in settings. See examples below:
+
+<details><summary>Bugs</summary>
+
+**Template Path**
+
+![Path](/documentation/bugs/template-path.png)
+
+**Load Static**
+
+![Static](/documentation/bugs/load-static.png)
+
+</details>
+
 ### Unfixed Bugs
 
+An unfixed bug exists in the project regarding frontend input validation on the cart page. When testing input a quantity manually outside the specified range was entered. When clicking update the expected frontend validation message did not display. Consequently, when a large number is entered, the cart still updated with quantity and total cost for that number. As a workaround for this issue, backend validation has been implemented in the cart view to ensure that invalid quantities are handled appropriately.
+
+<details><summary>Known bug workaround</summary>
+
+<br>
+
+**Cart Update bug**
+
+![Bug](/documentation/bugs/cart-bug.png)
+
+- Cart updated with quantity of 999 at total cost of 999 products until workaround implemented.
+
+**Backend Bug workaround implemented in cart's app view.py file**
+
+![Workaround](/documentation/bugs/cart-bug-workaround.png)
+
+</details>
 
 \
 &nbsp;
