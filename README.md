@@ -504,6 +504,10 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
+Once a guest user completes registraion they have (along with all the guest features) the features below once logged in:
+
+<br>
+
 <details><summary>Home page</summary>
 
 <br>
@@ -522,7 +526,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![Wishlist](/documentation/features)
+![Details](/documentation/features/product-details-reg.png)
 
 - Page now has the add to wishlist button.
 
@@ -534,11 +538,11 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![My Profile](/documentation/features)
+![My Profile](/documentation/features/profile-reg.png)
 
 - Form to enter and update registered user details.
 
-- List of order history diaplayed.
+- List of order history displayed.
 
 </details>
 
@@ -548,9 +552,11 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![Checkout](/documentation/features)
+![Checkout](/documentation/features/checkout-reg.png)
 
 - Checkout form populated with details entered in My Profile page.
+
+- Option to save to profile if edited.
 
 </details>
 
@@ -560,7 +566,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![My Wishlist](/documentation/features)
+![My Wishlist](/documentation/features/wishlist.png)
 
 - List of products that have been added from the product details page with the option to remove.
 
@@ -574,11 +580,23 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![Contact Us](/documentation/features)
+![Contact Us](/documentation/features/contact-reg.png)
 
 - Username and email field populated with registration details.
 
 - Registered users just have to type in their message and send.
+
+</details>
+
+<br>
+
+<details><summary>Sign out page</summary>
+
+<br>
+
+![Sign out](/documentation/features/signout.png)
+
+- Signs out user back to home page.
 
 </details>
 
@@ -588,10 +606,82 @@ The home page includes three sectioms, the header, the main landing page and the
 \
 &nbsp;
 
+### Super user features
+
+Along with having all the features of a guest and registered user, the super user also has the below features:
+
+<details><summary>Home page</summary>
+
+<br>
+
+![Admin panel](/documentation/features/home-super.png)
+
+- Super users now have access to the product admin page from the My account dropdoen menu.
+
+</details>
+
+<br>
+
+<details><summary>Products page</summary>
+
+<br>
+
+![Products](/documentation/features/products-super.png)
+
+- Edit and delete options in the products page.
+
+</details>
+
+<br>
+
+<details><summary>Product details page</summary>
+
+<br>
+
+![Products](/documentation/features/product-details-super.png)
+
+- Edit and delete options in the products details page.
+
+</details>
+
+<br>
+
+<details><summary>Product Admin page</summary>
+
+<br>
+
+![Product Admin](/documentation/features/product-admin.png)
+
+- Form to add a new product details and image.
+
+</details>
+
+<br>
+
+<details><summary>Edit page</summary>
+
+<br>
+
+![Edit](/documentation/features/edit-admin.png)
+
+- Form to edit product details and image.
+
+</details>
+
+<br>
+
+<details><summary>Django Admin Panel</summary>
+
+<br>
+
+![Admin panel](/documentation/features/admin-panel.png)
+
+- Super has full access to django admin panel.
+
+</details>
+
 
 ## Features to be Implemented
-
-
 
 \
 &nbsp;

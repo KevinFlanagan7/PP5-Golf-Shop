@@ -1,3 +1,7 @@
 from django.contrib import admin
+from allauth.socialaccount.models import SocialAccount, SocialApp, SocialToken
 
-# Register your models here.
+
+admin.site.unregister(SocialAccount)
+admin.site.unregister(SocialApp)
+admin.site.unregister(SocialToken)
