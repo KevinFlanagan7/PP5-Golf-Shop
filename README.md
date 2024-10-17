@@ -683,7 +683,7 @@ Along with having all the features of a guest and registered user, the super use
 </details>
 
 
-### Messages
+### Message features
 
 The project uses Django's built-in messaging framework to provide real-time feedback to users. These messages are used to display success, error and informational messages throughout the site after completeing an action. For example, when a user logs in, adds a product to the cart, completes a purchase, they receive immediate confirmation via on-screen notifications that displays in the top right corner of the site. See below examples:
 
@@ -723,9 +723,10 @@ The project uses Django's built-in messaging framework to provide real-time feed
 \
 &nbsp;
 
-### Emails
+### Email features
 
-The project includes email notifications for important actions such as order confirmations, contact form submissions and email verification during user registration. A dedicated Gmail address was created for the project to handle outgoing and incoming emails. Registered users receive a verification email when signing up, ensuring the authenticity of their accounts before they can fully access the site's features. This enhances security and user experience. See below examples:
+The project includes email notifications for important actions such as order confirmations, contact form submissions and email verification during user registration. A dedicated Gmail address of 
+thegolfshop2024@gmail.com was created for the project to handle outgoing and incoming emails. Registered users receive a verification email when signing up, ensuring the authenticity of their accounts before they can fully access the site's features. This enhances security and user experience. See below examples:
 
 <details><summary>Emails</summary>
 
@@ -744,6 +745,60 @@ The project includes email notifications for important actions such as order con
 ![Contact email](/documentation/messages/contact-us-email.png)
 
 </details>
+
+### Validation features
+
+The project implements validation for user inputs both on the frontend and backend. For example, quantity input fields are validated in both, see below examles:
+
+<details><summary>Validation</summary>
+
+<br>
+
+**Quantity buttons disabled at 1 and 99**
+
+![Disabled](/documentation/validation/disabled-1.png)
+
+![Disabled](/documentation/validation/disabled-99.png)
+
+**Input manually entered by user**
+
+![Manual](/documentation/validation/frontend-validation-neg.png)
+
+![Manual](/documentation/validation/frontend-validation.png)
+
+**If frontend HTML input min and max deleted by user**
+
+![Backend](/documentation/validation/backend-html.png)
+
+**Input field deleted**
+
+![Deleted](/documentation/validation/backend-input-empty.png)
+
+</details>
+
+### Defensive design features
+
+Golfshop applies defensive design principles to maintain a secure and user-friendly experience. Users who attempt to access URLs they are not authorized to view such as product admin pages, guest users are directed to the login page while registered users are shown the appropriate error messages. Additionally, the site handles incorrect or broken URLs by displaying a custom 404 error page, guiding users back to the products page. See below examples:
+
+<details><summary>Defensive design</summary>
+
+<br>
+
+**Unauthorized URLs errors**
+
+![Disabled](/documentation/validation/urls-error.png)
+
+**404.html error page**
+
+![404 error](/documentation/validation/404error.png)
+
+</details>
+
+\
+&nbsp;
+[Back to Top](#golf-shop)
+\
+&nbsp;
 
 ## Technologies used
 
