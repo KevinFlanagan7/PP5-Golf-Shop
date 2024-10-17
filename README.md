@@ -4,7 +4,11 @@
 
 ## Project Goals
 
-The goal of the Golf Shop project is to create a user-friendly, fully responsive e-commerce website that provides both guest users and signed-up users with an easy and enjoyable shopping experience. The site showcases a wide range of golf products, while offering features like user account management, wishlist functionality, and a seamless cart checkout for registered users. Guest users can browse products and make purchases without creating an account, while signed-up users benefit from additional features like order history and saved preferences. The project also includes features such as newsletters, product search, and a FAQ section to improve user engagement, boost online sales, and enhance customer satisfaction.
+The goal of the Golfshop project is to create a user-friendly, fully responsive e-commerce website that provides both guest users and registered users with an easy and enjoyable shopping experience. The site showcases a range of golf products while offering features like user account management, wishlist functionality, and a seamless cart checkout. Guest users can browse products and make purchases without creating an account, while registered users benefit from additional features like order history and saved preferences.
+
+The target audience includes golf enthusiasts of all skill levels, from beginners looking to purchase their first set of equipment to seasoned players seeking the latest gear. The site is also designed for golf shop owners and administrators who need an intuitive platform to manage products and customer interactions. Additionally, casual shoppers looking for golf gifts or accessories.
+
+The project includes features such as newsletters, product search, and a FAQ section to improve user engagement, boost online sales, and enhance customer satisfaction.
 
 ## UX
 
@@ -117,34 +121,44 @@ I have built the website with a mobile first mindset using the iPhone SE (375px)
 
 ![Database schema](/documentation/database/database.png)
 
-#### User model
+**User model**
+
 Represents the users of the application. Each user has a unique username and email, along with a hashed password for authentication. It has a One-to-One relationship so each user has a corresponding UserProfile.
 
-#### UserProfile model
+**UserProfile model**
+
 Maintains default delivery information and order history for a user. It allows storing additional details related to a user beyond the basic authentication information. It has a One-to-One relationship with user model and also a One-to-Many relationship with orders so a user can have multiple orders.
 
-#### Category model
+**Category model**
+
 Represents product categories, allowing for better organization and classification of products in the shop. It has a One-to-Many relationship so multiple products associated with each category.
 
-#### Product model
+**Product model**
+
 Represents items available for sale in the shop. Each product is categorized and can have associated attributes such as size and price. It has a One-to-One relationship with a category so each product is associated with a single Category. It also has a One-to-Many relationship with order line item and wishlist item so a product can be linked with multiple order line items and user wishlists.
 
-#### Order model
+**Order model**
+
 Represents a customer's order, containing all necessary information for processing and delivery. It includes customer details and the order's total amounts. It has Many-to-One relationship with user profile so multiple oreders can be linked to a user profile or null for a guest user. It also has a One-to-Many with order line item so an order can have multiple products.
 
-#### OrderLineItem model
+**OrderLineItem model**
+
 Represents a specific product included in an order. It includes information on product size, quantity, and the total price for that line item. It has a Many-to-One relationship so each order line item is linked to a single order and product.
 
-#### Contact model
+**Contact model**
+
 Represents a contact request made by users to the application. It stores the user's name, email, and their message. It operates independently without relationships to other models.
 
-#### Wishlist model
+**Wishlist model**
+
 Represents a user's wishlist, which can hold multiple products. It allows users to save items for future consideration. It has a One-to-One relationship so it is Linked to a single UserProfile.
 
-#### WishlistItem model
+**WishlistItem model**
+
 Represents a specific product in a user's wishlist. It tracks when the item was added. It has a Many-to-One relationship so each wishlist item is linked to a single Wishlist and each wishlist item is linked to a single Product.
 
-#### FAQ model
+**FAQ model**
+
 Represents frequently asked questions along with their answers. This helps users find information quickly. It operates independently without relationships to other models.
 
 \
@@ -339,6 +353,10 @@ The home page includes three sectioms, the header, the main landing page and the
 - A quantity selector field and the option to add to your cart for purchase.
 
 - A back to products page option if user does not want to purchae product.
+
+![Shoe sizes](/documentation/features/product-details-shoes.png)
+
+- Shoe products gives a dropdown option to select a size.
 
 <br>
 
@@ -793,6 +811,16 @@ The project applies defensive design principles to maintain a secure and user-fr
 ![404 error](/documentation/validation/404error.png)
 
 </details>
+
+## Features to be Implemented
+
+Below are a list of features to be implemented in the future:
+
+- Integrate social media account login to provide users with a faster, more convenient way to register and log in to the site.
+
+- Add functionality for users to leave reviews, providing valuable feedback and enhancing the shopping experience for future customers.
+
+- Implement a discount code feature where users can apply promotional codes to receive discounts on their purchases during checkout.
 
 \
 &nbsp;
