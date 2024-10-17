@@ -1447,22 +1447,30 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
     |------|------|------|------|------|------|
-    | GOLFshop name/logo | Click on name/logo | Returns user to home page if not already there | Returns user to home page if not already there | Returns user to home page if not already there | :white_check_mark: |
-    | Search Box | Enter product name and press Enter or click search icon| Displays search results page with relevant products | Displays search results page with relevant products  | Displays search results page with relevant products | :white_check_mark: |
-    | My Account Dropdown   | Click on "My Account" icon  | Displays dropdown options Register and login  | Displays dropdown with registered user options| Displays dropdown with admin options | :white_check_mark: |
-    | Cart Icon | Click on "Cart" icon | Redirects to cart page showing items added to cart or cart empty| Redirects to cart page showing items added to cart or cart empty | Redirects to cart page showing items added to cart or cart empty| :white_check_mark: |
-    | Links to All Products | Click on "All Products" link or main image| Redirects to a page showing all available products | Redirects to a page showing all available products | Redirects to a page showing all available products | :white_check_mark: |
-    | Links to Drivers  | Click on "Drivers" link or Drivers image   | Redirects to a page showing products in Drivers | Redirects to a page showing products in Drivers | Redirects to a page showing products in Drivers  | :white_check_mark: |
-    | Links to Bags  | Click on "Bags" link or image of bags | Redirects to a page showing products in Bags | Redirects to a page showing products in Bags | Redirects to a page showing products in Bags | :white_check_mark: |
-    | Links to Irons  | Click on "Irons" link or image of irons  | Redirects to a page showing products in Irons | Redirects to a page showing products in Irons | Redirects to a page showing products in Irons | :white_check_mark: |
-    | Links to Shoes | Click on "Shoes" link or image of shoes  | Redirects to a page showing products in Shoes | Redirects to a page showing products in Shoes | Redirects to a page showing products in Shoes | :white_check_mark: |
-    | Facebook Link  | Click on "Facebook" link in footer  | Redirects to the Facebook page | Redirects to the Facebook page | Redirects to the Facebook page | :white_check_mark: |
+    | GOLFshop name/logo | Click on name/logo | Returns user to home page if not already there | Same as Guest | Same as Guest | :white_check_mark: |
+    | Search Box | Enter product name and press Enter or click search icon| Displays search results page with relevant products | Same as Guest  | Same as Guest | :white_check_mark: |
+    | My Account Dropdown   | Click on "My Account" icon  | Displays dropdown options Register and login  | Displays dropdown with My Profile, My Wishlist and Log out options | Displays dropdown with admin options | :white_check_mark: |
+    | Cart Icon | Click on "Cart" icon | Redirects to cart page showing items added to cart or cart empty| Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to All Products | Click on "All Products" link or main image | Redirects to all products page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Drivers  | Click on "Drivers" link or Drivers image   | Filters page to Drivers category | Same as Guest |Same as Guest | :white_check_mark: |
+    | Links to Bags  | Click on "Bags" link or image of bags | Filters page to Bags category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Irons  | Click on "Irons" link or image of irons  | Filters page to Irons category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Shoes | Click on "Shoes" link or image of shoes  | Filters page to Shoes category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Facebook Link  | Click on "Facebook" link in footer  | Redirects to the Facebook page | Same as Guest | Same as Guest | :white_check_mark: |
     | Contact Us Link | Click on "Contact Us" link in footer | Redirects to Contact Us page | Redirects to Contact Us page with name and email field populated | Redirects to Contact Us page name and email field populated  | :white_check_mark: |
-    | FAQ Link | Click on "FAQ" link in footer | Redirects to FAQ page | Redirects to FAQ page | Redirects to FAQ page | :white_check_mark: |
-    | Privacy Policy Link   | Click on "Privacy Policy" link in footer | Redirects to Privacy Policy page | Redirects to Privacy Policy page | Redirects to Privacy Policy page | :white_check_mark: |
-    | Newsletter Signup | Enter email in newsletter and press Subscribe | Displays success message | Displays success message | Displays success message | :white_check_mark: |
+    | FAQ Link | Click on "FAQ" link in footer | Redirects to FAQ page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Privacy Policy Link   | Click on "Privacy Policy" link in footer | Redirects to Privacy Policy page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Newsletter Signup | Enter email in newsletter and press Subscribe | Displays success message | Same as Guest | Same as Guest | :white_check_mark: |
 
-  
+- Products Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Scroll to Top Button | Scroll down the page and click "Scroll to Top" button | Page smoothly scrolls back to the top | Same as Guest | Same as Guest | :white_check_mark: |
+    | Product Image Click | Click on a product image | Redirects to the product details page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Edit and delete links | Check if edit and delete links are displayed | Not displayed | Not displayed | Displayed | :white_check_mark: |
+    | Edit Link | Click on the "Edit" link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
+    | Delete Link | Click on the "Delete" link for a product | N/A | N/A | deletes product | :white_check_mark: |
     
 \
 &nbsp;
