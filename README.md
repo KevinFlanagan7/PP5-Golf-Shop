@@ -446,9 +446,15 @@ The home page includes three sectioms, the header, the main landing page and the
 
 <br>
 
-![FAQ](/documentation/features/privacy.png)
+![Privacy](/documentation/features/privacy.png)
 
 </details>
+
+\
+&nbsp;
+[Back to Top](#golf-shop)
+\
+&nbsp;
 
 ### Registered user features
 
@@ -502,11 +508,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 </details>
 
-<br>
-
 Once a guest user completes registraion they have (along with all the guest features) the features below once logged in:
-
-<br>
 
 <details><summary>Home page</summary>
 
@@ -681,13 +683,67 @@ Along with having all the features of a guest and registered user, the super use
 </details>
 
 
-## Features to be Implemented
+### Messages
+
+The project uses Django's built-in messaging framework to provide real-time feedback to users. These messages are used to display success, error and informational messages throughout the site after completeing an action. For example, when a user logs in, adds a product to the cart, completes a purchase, they receive immediate confirmation via on-screen notifications that displays in the top right corner of the site. See below examples:
+
+<details><summary>Messages</summary>
+
+<br>
+
+**Login**
+
+![log in](/documentation/messages/signin.png)
+
+**Add to Wishlist**
+
+![Wishlist](/documentation/messages/add-wishlist.png)
+
+**Add to Cart**
+
+![Cart](/documentation/messages/add-product.png)
+
+- Add to cart message also includes cart content and option to checkout.
+
+**Checkout**
+
+![Checkout](/documentation/messages/checkout_success.png)
+
+- Checkout message also includes order number and the provided email address the confirmation is sent too.
+
+**Log out**
+
+![Sign out](/documentation/messages/signout.png)
+
+</details>
 
 \
 &nbsp;
 [Back to Top](#golf-shop)
 \
 &nbsp;
+
+### Emails
+
+The project includes email notifications for important actions such as order confirmations, contact form submissions and email verification during user registration. A dedicated Gmail address was created for the project to handle outgoing and incoming emails. Registered users receive a verification email when signing up, ensuring the authenticity of their accounts before they can fully access the site's features. This enhances security and user experience. See below examples:
+
+<details><summary>Emails</summary>
+
+<br>
+
+**Confirm email**
+
+![Confirm](/documentation/messages/confirm-email.png)
+
+**Order confirmation email**
+
+![Order](/documentation/messages/order-email.png)
+
+**Contact Us email**
+
+![Contact email](/documentation/messages/contact-us-email.png)
+
+</details>
 
 ## Technologies used
 
