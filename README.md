@@ -109,7 +109,78 @@ I have built the website with a mobile first mindset using the iPhone SE (375px)
 
 ### Wireframes
 
+I used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes. The pages include the home page, Product page, Cart page Checkout page and Contact Us page,
+see below:
 
+<details><summary>Mobile Wireframes</summary>
+
+<br>
+
+**Home Page**
+
+![Home](/documentation/wireframes/home-page-mobile.png)
+
+<br>
+
+**Products Page**
+
+![Products](/documentation/wireframes/product-page-mobile.png)
+
+<br>
+
+**Cart Page**
+
+![Cart](/documentation/wireframes/cart-page-mobile.png)
+
+<br>
+
+**Checkout Page**
+
+![Checkout](/documentation/wireframes/checkout-page-mobile.png)
+
+<br>
+
+**Contact Us Page**
+
+![Contact](/documentation/wireframes/contact-us-mobile.png)
+
+</details>
+
+<br>
+
+<details><summary>Desktop Wireframes</summary>
+
+<br>
+
+**Home Page**
+
+![Home](/documentation/wireframes/home-page.png)
+
+<br>
+
+**Products Page**
+
+![Products](/documentation/wireframes/product-page.png)
+
+<br>
+
+**Cart Page**
+
+![Cart](/documentation/wireframes/cart-page.png)
+
+<br>
+
+**Checkout Page**
+
+![Checkout](/documentation/wireframes/checkout-page.png)
+
+<br>
+
+**Contact Us Page**
+
+![Contact](/documentation/wireframes/contact-us-page.png)
+
+</details>
 
 \
 &nbsp;
@@ -1569,7 +1640,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     |------|------|------|------|------|------|
     | Register account | Complete registration form and sign up | N/A | Email recieved | N/A | :white_check_mark: | 
     | Forgot Passord | Click forgot password link, enter email address and click Reset Password | N/A | Email recieved | N/A | :white_check_mark: | 
-    | Order email | Complete an order | N/A | Email recieved | Email recieved | :white_check_mark: | 
+    | Order email | Complete an order | Email recieved | Email recieved | Email recieved | :white_check_mark: | 
     | Contact Us | Complete contact us form and click send | Email recieved | Email recieved | Email recieved | :white_check_mark: | 
 
 - Validation
