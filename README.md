@@ -1460,7 +1460,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Contact Us Link | Click on Contact Us link in footer | Redirects to Contact Us page | Redirects to Contact Us page with name and email field populated | Redirects to Contact Us page name and email field populated  | :white_check_mark: |
     | FAQ Link | Click on FAQ link in footer | Redirects to FAQ page | Same as Guest | Same as Guest | :white_check_mark: |
     | Privacy Policy Link   | Click on Privacy Policy link in footer | Redirects to Privacy Policy page | Same as Guest | Same as Guest | :white_check_mark: |
-    | Newsletter Signup | Enter email in newsletter and press Subscribe | Displays success message | Same as Guest | Same as Guest | :white_check_mark: |
+    | Newsletter Signup | Enter email in newsletter field and click Subscribe | Displays success message | Same as Guest | Same as Guest | :white_check_mark: |
 
 - Products Page
 
@@ -1498,6 +1498,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
     |------|------|------|------|------|------|
     | Create account link | Click on link | Directed to registration page | N/A  | N/A | :white_check_mark: |
+    | Save checkbox | Check box | N/A | Profile updated  | Profile updated | :white_check_mark: |
     | Login link | Click on link | Directed to login page | N/A  | N/A | :white_check_mark: |
     | Form fields | Check if populated | Not populated | Yes with profile details | Yes with profile details | :white_check_mark:  |
     | Complete order button | Enter card details and click button | Directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
@@ -1521,8 +1522,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
     |------|------|------|------|------|------|
     | Order History | Complete order and confirm order history dispalyed | N/A  | dispalyed  | dispalyed | :white_check_mark: |
-    | Update information button | Enter and update fields and click button | N/A  | Information updated  | Information updated | 
-    :white_check_mark: |
+    | Update information button | Enter and update fields and click button | N/A  | Information updated  | Information updated | :white_check_mark: |
 
 - My Wishlist Page
 
@@ -1532,9 +1532,35 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Product image | Click on image | N/A  | Directed to product's detail page  | Directed to product's detail page | :white_check_mark: |
     | Remove link | Click link | N/A  | Product removed  | Product removed | :white_check_mark: |
 
+- Registration Messages
 
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Registration | Navigate to registration page, complete form and click sign up | N/A  | Confirmation email sent message displayed | N/A | :white_check_mark: |   
+    | Email confirmation link | Click link in registration email | N/A  | Directed to confirm email page  | N/A | :white_check_mark: |
+    | Email confirmation | Click confirm | N/A  | Email confirmed message displayed and directed to login page  | N/A | :white_check_mark: |
+    | Log in | Enter details and click sign in | N/A  | User signed in message displayed  | N/A | :white_check_mark: |
+    | Forgot password | Click forgot password link on login page | N/A  | Directed to Password reset page  | N/A | :white_check_mark: |
+    | Password reset | Enter email and click reset my password | N/A  | Message on password reset page to say email has been sent | N/A | :white_check_mark: |
+    | Forgot password | Click forgot password link on login page | N/A  | Directed to Password reset page  | N/A | :white_check_mark: |
+    | Change password link | Click on link in email  | N/A  | Directed to change password page  | N/A | :white_check_mark: |
+    | Change password | Eneter new password and click change  | N/A  | Password changed message displayed | N/A | :white_check_mark: |
+    
+- Site Messages
 
-
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Add to cart | Click add to cart button | Message displayed  | Message displayed | Message displayed | :white_check_mark: | 
+    | Add to wishlist | Click add to wishlist button | N/A | Message displayed | Message displayed | :white_check_mark: | 
+    | Update cart | Adjust cart and click update link | Message displayed  | Message displayed | Message displayed | :white_check_mark: |
+    | Remove from cart | Click remove link | Message displayed  | Message displayed | Message displayed | :white_check_mark: |
+    | Complete order | Click complete order button | Message displayed  | Message displayed | Message displayed | :white_check_mark: |
+    | Profile | Update profile and click update information | N/A  | Message displayed | Message displayed | :white_check_mark: | 
+    | Wishlist | Click remove link on wishlist page | N/A  | Message displayed | Message displayed | :white_check_mark: | 
+    | Contact Us | Complete form and click send | Message displayed  | Message displayed | Message displayed | :white_check_mark: | 
+    | Add Product | In Product admin page add product  | N/A  | N/A | Message displayed | :white_check_mark: | 
+    | Edit Product | Click edit link on product and edit  | N/A  | N/A | Message displayed | :white_check_mark: | 
+    | Delete Product | Click delete link on product  | N/A  | N/A | Message displayed | :white_check_mark: | 
 
 
 
