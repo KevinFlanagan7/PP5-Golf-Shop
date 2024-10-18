@@ -1560,11 +1560,36 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Contact Us | Complete form and click send | Message displayed  | Message displayed | Message displayed | :white_check_mark: | 
     | Add Product | In Product admin page add product  | N/A  | N/A | Message displayed | :white_check_mark: | 
     | Edit Product | Click edit link on product and edit  | N/A  | N/A | Message displayed | :white_check_mark: | 
-    | Delete Product | Click delete link on product  | N/A  | N/A | Message displayed | :white_check_mark: | 
+    | Delete Product | Click delete link on product  | N/A  | N/A | Message displayed | :white_check_mark: |
+    | Log out | Navigate to logout page and click sign out | N/A  | Message displayed | Message displayed | :white_check_mark: | 
 
+- Emails
 
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Register account | Complete registration form and sign up | N/A | Email recieved | N/A | :white_check_mark: | 
+    | Forgot Passord | Click forgot password link, enter email address and click Reset Password | N/A | Email recieved | N/A | :white_check_mark: | 
+    | Order email | Complete an order | N/A | Email recieved | Email recieved | :white_check_mark: | 
+    | Contact Us | Complete contact us form and click send | Email recieved | Email recieved | Email recieved | :white_check_mark: | 
 
+- Validation
 
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Product detail page | Click Increase and decrease buttons on quantity input | Buttons disable at 1 and 99 | Buttons disable at 1 and 99 | Buttons disable at 1 and 99 | :white_check_mark: | 
+    | Product detail page | Manually enter quantity outside range and click add to cart | Warning message displayed | Warning message displayed | Warning message displayed | :white_check_mark: | 
+    | Product detail page | Right click inside input field, click inspect, delete min and max from html, enter quantity outside range and click add to cart| Error message displayed | Error message displayed | Error message displayed | :white_check_mark: | 
+    | Cart page | Click Increase and decrease buttons on quantity input | Buttons disable at 1 and 99 | Buttons disable at 1 and 99 | Buttons disable at 1 and 99 | :white_check_mark: | 
+    | Cart page | Manually enter quantity outside range and click update | Error message displayed (see known bug section) | Error message displayed (see known bug section) | Error message displayed (see known bug section) | :white_check_mark: | 
+    | Site Forms | Delete any form fields or leave empty | Warning message to fill out fields displayed | Warning message to fill out fields displayed | Warning message to fill out fields displayed | :white_check_mark: | 
+
+- Defensive design 
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Broken URLs | Input broken URL | Customised 404 error page displayed | Customised 404 error page displayed | Customised 404 error page displayed | :white_check_mark: |
+    | Registered user URLs | Input registered user URLs | Directed to login page | Directed to registered user page | Directed to registered user page | :white_check_mark: | 
+    | Product Admin URLs | Input product admin URLs | Directed to login page | Error displayed | Directed to product admin page | :white_check_mark: | 
 
 \
 &nbsp;
