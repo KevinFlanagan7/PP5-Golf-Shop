@@ -1449,29 +1449,97 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     |------|------|------|------|------|------|
     | GOLFshop name/logo | Click on name/logo | Returns user to home page if not already there | Same as Guest | Same as Guest | :white_check_mark: |
     | Search Box | Enter product name and press Enter or click search icon| Displays search results page with relevant products | Same as Guest  | Same as Guest | :white_check_mark: |
-    | My Account Dropdown   | Click on "My Account" icon  | Displays dropdown options Register and login  | Displays dropdown with My Profile, My Wishlist and Log out options | Displays dropdown with admin options | :white_check_mark: |
+    | My Account Dropdown   | Click on My Account icon  | Displays dropdown options Register and login  | Displays dropdown with My Profile, My Wishlist and Log out options | Displays dropdown with admin options | :white_check_mark: |
     | Cart Icon | Click on "Cart" icon | Redirects to cart page showing items added to cart or cart empty| Same as Guest | Same as Guest | :white_check_mark: |
-    | Links to All Products | Click on "All Products" link or main image | Redirects to all products page | Same as Guest | Same as Guest | :white_check_mark: |
-    | Links to Drivers  | Click on "Drivers" link or Drivers image   | Filters page to Drivers category | Same as Guest |Same as Guest | :white_check_mark: |
-    | Links to Bags  | Click on "Bags" link or image of bags | Filters page to Bags category | Same as Guest | Same as Guest | :white_check_mark: |
-    | Links to Irons  | Click on "Irons" link or image of irons  | Filters page to Irons category | Same as Guest | Same as Guest | :white_check_mark: |
-    | Links to Shoes | Click on "Shoes" link or image of shoes  | Filters page to Shoes category | Same as Guest | Same as Guest | :white_check_mark: |
-    | Facebook Link  | Click on "Facebook" link in footer  | Redirects to the Facebook page | Same as Guest | Same as Guest | :white_check_mark: |
-    | Contact Us Link | Click on "Contact Us" link in footer | Redirects to Contact Us page | Redirects to Contact Us page with name and email field populated | Redirects to Contact Us page name and email field populated  | :white_check_mark: |
-    | FAQ Link | Click on "FAQ" link in footer | Redirects to FAQ page | Same as Guest | Same as Guest | :white_check_mark: |
-    | Privacy Policy Link   | Click on "Privacy Policy" link in footer | Redirects to Privacy Policy page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to All Products | Click on All Products link or main image | Redirects to all products page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Drivers  | Click on Drivers link or Drivers image   | Filters page to Drivers category | Same as Guest |Same as Guest | :white_check_mark: |
+    | Links to Bags  | Click on Bags link or image of bags | Filters page to Bags category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Irons  | Click on Irons link or image of irons  | Filters page to Irons category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Links to Shoes | Click on Shoes link or image of shoes  | Filters page to Shoes category | Same as Guest | Same as Guest | :white_check_mark: |
+    | Facebook Link  | Click on Facebook link in footer  | Redirects to the Facebook page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Contact Us Link | Click on Contact Us link in footer | Redirects to Contact Us page | Redirects to Contact Us page with name and email field populated | Redirects to Contact Us page name and email field populated  | :white_check_mark: |
+    | FAQ Link | Click on FAQ link in footer | Redirects to FAQ page | Same as Guest | Same as Guest | :white_check_mark: |
+    | Privacy Policy Link   | Click on Privacy Policy link in footer | Redirects to Privacy Policy page | Same as Guest | Same as Guest | :white_check_mark: |
     | Newsletter Signup | Enter email in newsletter and press Subscribe | Displays success message | Same as Guest | Same as Guest | :white_check_mark: |
 
 - Products Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
     |------|------|------|------|------|------|
-    | Scroll to Top Button | Scroll down the page and click "Scroll to Top" button | Page smoothly scrolls back to the top | Same as Guest | Same as Guest | :white_check_mark: |
+    | Scroll to Top Button | Scroll down the page and click Scroll to Top button | Page scrolls back to the top | Same as Guest | Same as Guest | :white_check_mark: |
     | Product Image Click | Click on a product image | Redirects to the product details page | Same as Guest | Same as Guest | :white_check_mark: |
-    | Edit and delete links | Check if edit and delete links are displayed | Not displayed | Not displayed | Displayed | :white_check_mark: |
-    | Edit Link | Click on the "Edit" link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
-    | Delete Link | Click on the "Delete" link for a product | N/A | N/A | deletes product | :white_check_mark: |
-    
+    | Edit Link | Click on the Edit link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
+    | Delete Link | Click on the Delete link for a product | N/A | N/A | deletes product | :white_check_mark: |
+
+- Product details Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Product Image Click | Click on a product image | Redirects to new page with product image | Same as Guest | Same as Guest | :white_check_mark: |
+    | Add to Wishlist button | Click on button | N/A | Product added to wishlist | Product added to wishlist | :white_check_mark: |
+    | Quantity selecter input | Click on + - buttons | Quantity increases and decreases | Quantity increases and decreases | Quantity increases and decreases | :white_check_mark:  |
+    | Edit Link | Click on the Edit link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
+    | Delete Link | Click on the Delete link for a product | N/A | N/A | deletes product | :white_check_mark: |
+    | Add to cart button | Click on button | Product added to cart | Product added to cart | Product added to cart | :white_check_mark: |
+    | Back to products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
+
+- Cart Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Quantity selecter input | Click on + - buttons | Quantity increases and decreases | Quantity increases and decreases | Quantity increases and decreases | :white_check_mark:  |
+    | Update Link | Click on the update link | Updates quantity and total | Updates quantity and total | Updates quantity and total | :white_check_mark: |
+    | Remove Link | Click on the remove link  | Product removed | Product removed | Product removed | :white_check_mark: |
+    | Secure checkout button | Click on button | Directed to checkout page | Directed to checkout page | Directed to checkout page | :white_check_mark: |
+    | All Products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
+
+- Checkout Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Create account link | Click on link | Directed to registration page | N/A  | N/A | :white_check_mark: |
+    | Login link | Click on link | Directed to login page | N/A  | N/A | :white_check_mark: |
+    | Form fields | Check if populated | Not populated | Yes with profile details | Yes with profile details | :white_check_mark:  |
+    | Complete order button | Enter card details and click button | Directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
+
+- Checkout success Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Order details | Check if order info displayed | displayed | displayed | displayed | :white_check_mark:  |
+    | Back to products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
+
+- Contact us Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Form fields | Check if populated | Not populated | Yes with registered username and email address | Yes with registered username and email address | :white_check_mark:  |
+    | Send button | Complete form and click button | Page refreshes with successfull message displayed  | Page refreshes with successfull message displayed  | Page refreshes with successfull message displayed | :white_check_mark: |
+
+- My Profile Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Order History | Complete order and confirm order history dispalyed | N/A  | dispalyed  | dispalyed | :white_check_mark: |
+    | Update information button | Enter and update fields and click button | N/A  | Information updated  | Information updated | 
+    :white_check_mark: |
+
+- My Wishlist Page
+
+    | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
+    |------|------|------|------|------|------|
+    | Wishlist products | Add product and confirm they are dispalyed | N/A  | dispalyed  | dispalyed | :white_check_mark: |
+    | Product image | Click on image | N/A  | Directed to product's detail page  | Directed to product's detail page | :white_check_mark: |
+    | Remove link | Click link | N/A  | Product removed  | Product removed | :white_check_mark: |
+
+
+
+
+
+
+
+
+
 \
 &nbsp;
 [Back to Top](#golf-shop)
