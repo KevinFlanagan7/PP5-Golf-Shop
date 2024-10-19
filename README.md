@@ -1721,7 +1721,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 ### Responsiveness
 
-- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness on different devices. Test results and screenshots below:
+- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness on different devices. Test results and example screenshots below:
 
     | Device                | Responsive >=768px | Responsive <768px | Landing page Images |
     | --------------------- | ------------------ | ----------------- | ----------- | 
@@ -1737,15 +1737,15 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
     **Mobile**
 
-    | Home Page | Product Page | Cart Page |
+    | Home Page | Product Page | Checkout Page |
     | ---- | ----- | ------ |
-    | ![Home]() | ![Product]() | ![Cart]() |
+    | ![Home](/documentation/responsiveness/home-mobile.png) | ![Product](/documentation/responsiveness/products-mobile.png) | ![Checkout](/documentation/responsiveness/checkout-mobile.png) |
 
     **Desktop**
 
-    | Home Page | Product Page | Cart Page |
+    | Home Page | Product Page | Checkout Page |
     | ---- | ----- | ------ |
-    | ![Home]() | ![Product]() | ![Cart]() |  
+    | ![Home](/documentation/responsiveness/home-desktop.png) | ![Product](/documentation/responsiveness/products-desktop.png) | ![Checkout](/documentation/responsiveness/checkout-desktop.png) |  
 
 \
 &nbsp;
@@ -2058,8 +2058,13 @@ My mentor For help and advice:
 
 - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 
+Code inspiration:
 
+- [LMS and PP5 Walkthrough Project from Codeinstitute](https://codeinstitute.net "Boutique Ado")
 
+For all media images:
+
+- [Pinterest](https://ie.pinterest.com/pin/72057662781606958/ "Pinterest")
 
 \
 &nbsp;
