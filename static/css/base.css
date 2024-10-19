@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(243, 237, 237);
+    background: #F3EDED;
     background-size: cover;
     color: #555;
 }
@@ -51,11 +51,11 @@ main {
 }
 
 .btt-button {
-    height: 42px;
-    width: 42px;
+    height: 2.6rem;
+    width: 2.6rem;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0.625rem;
+    right: 0.625rem;
 }
 
 .btt-link,
@@ -78,8 +78,8 @@ main {
 
 .message-container {
     position: fixed;
-    top: 72px;
-    right: 15px;
+    top: 4.5rem;
+    right: 1rem;
     z-index: 99999999999;
 }
 
@@ -124,9 +124,8 @@ main {
 }
 
 .footer-links a{
-    color: rgb(0, 0, 255);
+    color: #0000FF;
 }
-
 
 /* Media Queries */
 
@@ -189,4 +188,3 @@ main {
         font-size: 1.25rem;
     }
 }
-

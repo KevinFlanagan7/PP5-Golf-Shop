@@ -924,10 +924,11 @@ Below are a list of features to be implemented in the future:
 
 ### Python Libraries
 
-- [Django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [Django-allauth](https://docs.allauth.org/en/latest/)
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
 - [Django Countries](https://pypi.org/project/django-countries/)
 - [Pillow](https://pypi.org/project/Pillow/)
+- [django-storages](https://django-storages.readthedocs.io/en/latest/)
 
 \
 &nbsp;
