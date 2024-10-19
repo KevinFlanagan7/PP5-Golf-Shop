@@ -68,9 +68,18 @@ The project includes features such as newsletters, product search, and a FAQ sec
 
 ### Colours 
 
-![Coolors]()
+![Coolors](/documentation/features/pp5-coolors.png)
 
+I used the colours above which mainly consist of the bootstrap colour classes, see details below:
 
+- 007BFF: bg-primary and btn-primary classes, used in navigation bar and for primary action buttons.
+- 555C63: site body font colour.
+- FFFFFF: btn-white class, background colour of shadow boxes.
+- F3EDED: body backgroud colour, good contrast with white shadow boxes. 
+- 000000: text-black class, font colour in navigation bar.
+- F8F9FA: bg-light, footer background colour for good text contrast.  
+- 6C757D: btn-seconday, used for secondary action buttons like returning back to products page.
+- 0000FF: footer links and complete order button for emphasis and sharper contrast.
 
 \
 &nbsp;
