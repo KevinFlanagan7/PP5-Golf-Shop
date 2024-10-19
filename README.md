@@ -922,6 +922,13 @@ Below are a list of features to be implemented in the future:
 - [Django](https://en.wikipedia.org/wiki/Django_(web_framework) "Django")
 - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework) "Bootstrap")
 
+### Python Libraries
+
+- [Django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+- [Django Countries](https://pypi.org/project/django-countries/)
+- [Pillow](https://pypi.org/project/Pillow/)
+
 \
 &nbsp;
 [Back to Top](#golf-shop)
@@ -930,12 +937,23 @@ Below are a list of features to be implemented in the future:
 
 ### Database
 
-
+- [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/)
 
 ### Tools
 
-
-
+- [Python Validator](https://pep8ci.herokuapp.com/)
+- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+- [JShint Validation Service](https://jshint.com/ "JSHint")
+- [Heroku](https://dashboard.heroku.com/apps)
+- [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview "Lighthouse")
+- [Coolers](https://coolors.co/ "Coolers")
+- [Favicon Converter](https://favicon.io/favicon-converter/ "Favicon Converter")
+- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+- [dbdiagram](https://dbdiagram.io/home/ "dbdiagram")
+- [Stripe](https://stripe.com/en-gb-nl)
+- [Amazon Web Service S3](https://aws.amazon.com/s3/)
 
 \
 &nbsp;
@@ -1026,6 +1044,15 @@ A few errors found with HTML files, see details below:
 - Contact us page
 
     ![Contact](/documentation/code_validation/contact-html.png)
+
+- FAQ page
+
+    ![FAQ](/documentation/code_validation/faq-html.png)
+
+- 404error page
+
+    ![404error](/documentation/code_validation/404error-html.png)
+
 
 - Password reset page
 
@@ -1122,6 +1149,10 @@ Golfshop Project files
 <br>
 
 Home App files
+
+- admin.py
+
+    ![admin](/documentation/code_validation/home-admin-py.png)
 
 - urls.py
 
