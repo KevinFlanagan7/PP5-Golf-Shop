@@ -66,9 +66,8 @@
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">
                                         <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                                        <a href="#" class="text-danger" data-toggle="modal" data-target="#deleteModal{{ product.id }}">Delete</a>    
+                                        <a href="#" class="text-danger delete-link" data-product-id="{{ product.id }}">Delete</a>    
                                     </small>
-                                    {% include 'products/includes/delete-modal.html' %}
                                     {% endif %}
                                 </div>
                             </div>
@@ -102,9 +101,11 @@
         <span class="sr-only">Back to Top</span>
     </a>
 </div>
+{% include 'products/includes/delete-modal.html' %}
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/scroll-script.html' %}
+<script src="{% static 'js/delete-modal.js' %}"></script>
 {% endblock %}
