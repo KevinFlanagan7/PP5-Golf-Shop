@@ -60,7 +60,7 @@ The project includes features such as newsletters, product search, and a FAQ sec
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -83,7 +83,7 @@ I used the colours above which mainly consist of the bootstrap colour classes, s
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -93,10 +93,9 @@ I have used the default font families provided by Bootstrap for different device
 
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji".
 
-
 ### Icons
 
-I have used the [Font Awesome library](https://fontawesome.com/ "Font Awesome") for the social media icons in the footer and a [Favicon generator](https://favicon.io/favicon-converter/ "Favicon") for the browser tab icon.
+I have used the [Font Awesome library](https://fontawesome.com/ "Font Awesome") for the icons throughout the website and [Favicon generator](https://favicon.io/favicon-converter/ "Favicon") for the browser tab icon.
 
 ### Structure
 
@@ -112,7 +111,7 @@ I have built the website with a mobile first mindset using the iPhone SE (375px)
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -216,7 +215,7 @@ The wireframes include the site's main pages to showcase the overall design and 
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -266,7 +265,7 @@ Represents frequently asked questions along with their answers. This helps users
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
     
@@ -278,7 +277,7 @@ I used Agile methodology to plan my project. It allowed me to break down the pro
 
 #### Epics & Milestones
 
-My project is made up of several Epics which are large bodies of work that can be broken down into smaller, more manageable tasks. They provide an overview of the main functionalities to deliver, there are six milestones associated to the projects Epics. For my project, the Milestones with associated Epics, stories and tasks can be viewed at the links below:
+My project is made up of several Epics which are large bodies of work that can be broken down into smaller, more manageable tasks. They provide an overview of the main functionalities to deliver, there are ten milestones associated to the projects Epics. For my project, the Milestones with associated Epics, stories and tasks can be viewed at the links below:
 
 - [Milestone 1 - Initial Set Up](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/1)
 
@@ -300,10 +299,9 @@ My project is made up of several Epics which are large bodies of work that can b
 
 - [Milestone 10 - README documentation and Testing](https://github.com/KevinFlanagan7/PP5-Golf-Shop/milestone/11)
 
-
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -317,23 +315,23 @@ The Github projects tool was used to implement Agile development practices effic
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
 ## SEO (Search Engine Optimization)
 To optimize the visibility of the Golf Shop in search engine results, the following SEO strategies have been implemented:
 
-- Meta Tags: Included detailed meta descriptions and meta keywords to improve relevance in search results. The keywords include both short and long-tail terms, such as:
+- **Meta** Tags: Included detailed meta descriptions and meta keywords to improve relevance in search results. The keywords include both short and long-tail terms, such as:
 
     - Short-tail: "golf shop," "golf clubs," "golf shoes"
     - Long-tail: "premium golf clubs for sale," "Titleist GT golf drivers online," "buy Adidas golf shoes with fast shipping"
 
-- Sitemap: A sitemap.xml file has been generated to help search engines efficiently crawl the site. It includes URLs   for all key pages like product categories (e.g., drivers, bags, shoes), individual product listings, and informational pages such as contact and FAQ.
+- **Sitemap**: A sitemap.xml file has been generated to help search engines efficiently crawl the site. It includes URLs   for all key pages like product categories (e.g., drivers, bags, shoes), individual product listings, and informational pages such as contact and FAQ.
 
-- robots.txt: A robots.txt file has been added to control search engine crawlers' access, allowing them to index the most important pages while avoiding less relevant content, like certain backend files or administrative URLs.
+- **robots.txt**: A robots.txt file has been added to control search engine crawlers' access, allowing them to index the most important pages while avoiding less relevant content, like certain backend files or administrative URLs.
 
-- Semantic HTML: The use of semantic HTML elements like `<header>`, `<nav>`, `<section>`, and `<footer>` helps search engines understand the structure of the page better, also including detailed `alt` description for images improves accessibility and SEO ranking. By clearly defining sections of content, these tags help search engines identify important content like product details, navigation menus, and footers, boosting the chances of appearing in relevant search queries.
+- **Semantic HTML**: The use of semantic HTML elements like `<header>`, `<nav>`, `<section>`, and `<footer>` helps search engines understand the structure of the page better, also including detailed `alt` description for images improves accessibility and SEO ranking. By clearly defining sections of content, these tags help search engines identify important content like product details, navigation menus, and footers, boosting the chances of appearing in relevant search queries.
 
 By utilizing these SEO techniques and following semantic HTML best practices, the site is designed to improve its visibility in search engines for users searching for golf equipment, leading to better rankings and increased traffic.
 
@@ -341,9 +339,9 @@ By utilizing these SEO techniques and following semantic HTML best practices, th
 
 The Golf shop is a B2C (business-to-consumer) business, focused on providing high-quality golf equipment directly to individual customers. Several marketing tools and strategies have been implemented to enhance the customer experience, engage with visitors, and build brand loyalty.
 
-- Mailchimp Newsletter Sign-Up: A newsletter sign-up form is integrated in the site’s footer using Mailchimp. This allows visitors to subscribe easily to regular updates about new product releases and exclusive deals.
+- **Mailchimp Newsletter Sign-Up**: A newsletter sign-up form is integrated in the site’s footer using Mailchimp. This allows visitors to subscribe easily to potentially receive updates about new product releases and exclusive deals.
 
-- Facebook Page: The Golf Shop connects with customers on social media via its dedicated Facebook page. This platform is used to engage with the golf community, post updates about new arrivals and promote content. By interacting with followers on Facebook, the shop builds brand awareness and developes an active customer base. The `rel="noopener external"`attribute is added to link for thye golf shop site security and tells search engines that the site is external.
+- **Facebook Page**: The Golf Shop connects with customers on social media via its dedicated Facebook page. This platform is used to engage with the golf community, post updates about new arrivals and promote content. By interacting with followers on Facebook, the shop builds brand awareness and developes an active customer base. The `rel="noopener external"`attribute is added to link for the golf shop's site security and tells search engines that the site is external.
 
     <details><summary>Facebook page</summary>
 
@@ -353,9 +351,9 @@ The Golf shop is a B2C (business-to-consumer) business, focused on providing hig
 
 <br>
 
-- Privacy Policy: A detailed privacy policy is included to inform customers about how their personal data is collected, used, and protected. This ensures compliance with privacy laws and builds trust with visitors, assuring them that their information, particularly email addresses gathered via the Mailchimp newsletter, is handled securely. Having a clear privacy policy is essential for customer trust and retention.
+- **Privacy Policy**: A detailed privacy policy is included to inform customers about how their personal data is collected, used, and protected. This ensures compliance with privacy laws and builds trust with visitors, assuring them that their information, particularly email addresses gathered via the Mailchimp newsletter, is handled securely.
 
-- Contact Us and FAQ Links: The footer contains helpful links to the Contact Us page and FAQ section, providing direct access to customer service and commonly asked questions. These links enhance the user experience by offering clear paths for support and additional information, making it easy for customers to reach out for assistance or find answers to product-related queries.
+- **Contact Us and FAQ Links**: The footer contains helpful links to the Contact Us page and FAQ section, providing direct access to customer service and commonly asked questions. These links enhance the user experience by offering clear paths for support and additional information, making it easy for customers to reach out for assistance or find answers to product-related queries.
 
 ## Features
 
@@ -573,7 +571,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -725,7 +723,7 @@ Once a guest user completes registraion they have (along with all the guest feat
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -840,7 +838,7 @@ The project uses Django's built-in messaging framework to provide real-time feed
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -931,7 +929,7 @@ Below are a list of features to be implemented in the future:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -959,7 +957,7 @@ Below are a list of features to be implemented in the future:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -985,7 +983,7 @@ Below are a list of features to be implemented in the future:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -1177,7 +1175,7 @@ The site was deployed using Heroku following the steps below:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -1213,7 +1211,7 @@ To copy the repository to your local machine in Github follow steps below:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
 
@@ -1233,6 +1231,6 @@ For all media images:
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#welcome-to-the-golfshop)
 \
 &nbsp;
