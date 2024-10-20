@@ -379,11 +379,7 @@ FAQ App files
 
 </details>
 
-\
-&nbsp;
-[Back to Top](#testing)
-\
-&nbsp;
+<br>
 
 ### Lighthouse
 
@@ -624,6 +620,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Privacy Policy Link   | Click on Privacy Policy link in footer | Redirects to Privacy Policy page | Same as Guest | Same as Guest | :white_check_mark: |
     | Newsletter Signup | Enter email in newsletter field and click Subscribe | Displays success message | Same as Guest | Same as Guest | :white_check_mark: |
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Products Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -653,6 +655,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Add to cart button | Click on button | Product added to cart | Product added to cart | Product added to cart | :white_check_mark: |
     | Back to products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Cart Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -678,6 +686,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Login link | Click on link | Directed to login page | N/A  | N/A | :white_check_mark: |
     | Form fields | Check if populated | Not populated | Yes with profile details | Yes with profile details | :white_check_mark:  |
     | Complete order button | Enter card details and click button | Loading spinner dispalyed and directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 - Checkout success Page
 
@@ -772,6 +786,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Order email | Complete an order | Email recieved | Email recieved | Email recieved | :white_check_mark: | 
     | Contact Us | Complete contact us form and click send | Email recieved | Email recieved | Email recieved | :white_check_mark: | 
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Validation
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -837,6 +857,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     |As a registered user, I want to save my shipping information for faster checkouts.|Navigated to My Profile page and entered shipping information in form and confirmed it is saved for future purchases.|:white_check_mark:|
     |As a registered user, I want to update my account information, including my address.|Navigated to My Profile, updated the address, and verified the changes were saved.|:white_check_mark:|
     |As a registered user, I want to receive an order confirmation email after completing a purchase.|Completed a purchase and verified that an order confirmation email was received to my registered email address.|:white_check_mark:|
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 - Super User Story Testing:
 

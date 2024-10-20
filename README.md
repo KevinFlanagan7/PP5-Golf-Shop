@@ -118,8 +118,7 @@ I have built the website with a mobile first mindset using the iPhone SE (375px)
 
 ### Wireframes
 
-I used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes. The pages include the home page, Product page, Cart page Checkout page and Contact Us page,
-see below:
+The wireframes include the site's main pages to showcase the overall design and layout. The allauth templates, used for user authentication, have been styled in a similar theme to ensure consistency across the entire website.
 
 <details><summary>Mobile Wireframes</summary>
 
@@ -134,6 +133,12 @@ see below:
 **Products Page**
 
 ![Products](/documentation/wireframes/product-page-mobile.png)
+
+<br>
+
+**Product detail Page**
+
+![Product detail](/documentation/wireframes/product-details-page-mobile.png)
 
 <br>
 
@@ -152,6 +157,12 @@ see below:
 **Contact Us Page**
 
 ![Contact](/documentation/wireframes/contact-us-mobile.png)
+
+<br>
+
+**FAQ Page**
+
+![FAQ](/documentation/wireframes/faq-mobile.png)
 
 </details>
 
@@ -173,6 +184,12 @@ see below:
 
 <br>
 
+**Product details Page**
+
+![Product details](/documentation/wireframes/product-details-page.png)
+
+<br>
+
 **Cart Page**
 
 ![Cart](/documentation/wireframes/cart-page.png)
@@ -188,6 +205,12 @@ see below:
 **Contact Us Page**
 
 ![Contact](/documentation/wireframes/contact-us-page.png)
+
+<br>
+
+**FAQ Page**
+
+![FAQ](/documentation/wireframes/faq-page.png)
 
 </details>
 
@@ -1110,7 +1133,7 @@ The GOLFshop uses Stripe as its primary payment system to securely process e-com
 
 - Configure settings.py with Stripe settings and add keys to config vars on Heroku.
 
-#### Testing Payments
+**Testing Payments**
     
 -   Stripe provides a test mode to simulate payment transactions.
 
