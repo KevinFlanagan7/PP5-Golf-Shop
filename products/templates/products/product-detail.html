@@ -47,7 +47,6 @@
                     <a href="{% url 'edit_product' product.id %}">Edit</a> |
                     <a href="#" class="text-danger delete-link" data-product-id="{{ product.id }}">Delete</a>
                 </small>
-                {% include 'products/includes/delete-modal.html' %}
                 {% endif %}
                 <p class="mt-2 mb-0">{{ product.description }}</p>
 

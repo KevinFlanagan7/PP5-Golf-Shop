@@ -986,9 +986,13 @@ A few errors found with HTML files, see details below:
 
     ![Signup](/documentation/code_validation/signup-html.png)
 
-- Products
+- Products page
 
     ![Products](/documentation/code_validation/products-html.png)
+
+- Products details page
+
+    ![Product details](/documentation/code_validation/product-details-html.png)
 
 - Drivers page
 
