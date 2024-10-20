@@ -876,11 +876,15 @@ The project implements validation for user inputs both on the frontend and backe
 
 ### Defensive design features
 
-The project applies defensive design principles to maintain a secure and user-friendly experience. Users who attempt to access URLs they are not authorized to view such as product admin pages, guest users are directed to the login page while registered users are shown the appropriate error messages. Additionally, the site handles incorrect or broken URLs by displaying a custom 404 error page, guiding users back to the products page. See below examples:
+This project is designed with user experience and data integrity in mind, applying defensive design principles to ensure a secure site. It includes a delete confirmation modal that prompts super users to confirm deletion actions to prevent accidental deletions. Additionally, the project handles authorization by redirecting attempts to access restricted URLs based on user status. It also features custom error pages that display friendly messages for unauthorized access or broken links.
 
 <details><summary>Defensive design</summary>
 
 <br>
+
+**Confirm deletion modal**
+
+![Delete modal](/documentation/features/products-delete-modal.png)
 
 **Unauthorized URLs errors**
 
@@ -1124,6 +1128,10 @@ No erros found with any of the JS files below:
 - Stripe elements script
 
     ![Stripe](/documentation/code_validation/stripe-elements-js.png)
+
+- Confirm Deletion modal script
+
+    ![Delete modal](/documentation/code_validation/delete-modal-js.png)
 
 </details>
 
@@ -1581,7 +1589,8 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Scroll to Top Button | Scroll down the page and click Scroll to Top button | Page scrolls back to the top | Same as Guest | Same as Guest | :white_check_mark: |
     | Product Image Click | Click on a product image | Redirects to the product details page | Same as Guest | Same as Guest | :white_check_mark: |
     | Edit Link | Click on the Edit link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
-    | Delete Link | Click on the Delete link for a product | N/A | N/A | deletes product | :white_check_mark: |
+    | Delete Link | Click on the Delete link for a product | N/A | N/A | Confirm deletion modal displayed | :white_check_mark: |
+    | Confirm deletion modal | Click on cancel or delete button | N/A | N/A | Modal closed if cancel clicked and product deleted if delete clicked | :white_check_mark: |
 
 - Product details Page
 
@@ -1591,7 +1600,8 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Add to Wishlist button | Click on button | N/A | Product added to wishlist | Product added to wishlist | :white_check_mark: |
     | Quantity selecter input | Click on + - buttons | Quantity increases and decreases | Quantity increases and decreases | Quantity increases and decreases | :white_check_mark:  |
     | Edit Link | Click on the Edit link for a product | N/A | N/A | Redirects to the product edit page | :white_check_mark: |
-    | Delete Link | Click on the Delete link for a product | N/A | N/A | deletes product | :white_check_mark: |
+    | Delete Link | Click on the Delete link for a product | N/A | N/A | Confirm deletion modal displayed | :white_check_mark: |
+    | Confirm deletion modal | Click on cancel or delete button | N/A | N/A | Modal closed if cancel clicked and product deleted if delete clicked | :white_check_mark: |
     | Add to cart button | Click on button | Product added to cart | Product added to cart | Product added to cart | :white_check_mark: |
     | Back to products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
 
@@ -1613,7 +1623,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Save checkbox | Check box | N/A | Profile updated  | Profile updated | :white_check_mark: |
     | Login link | Click on link | Directed to login page | N/A  | N/A | :white_check_mark: |
     | Form fields | Check if populated | Not populated | Yes with profile details | Yes with profile details | :white_check_mark:  |
-    | Complete order button | Enter card details and click button | Directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
+    | Complete order button | Enter card details and click button | Loading spinner dispalyed and directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
 
 - Checkout success Page
 
@@ -1699,6 +1709,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
     |------|------|------|------|------|------|
+    | Confirm deletion modal | Click delete links in product page and product details page | N/A | N/A | Confirm deletion modal displayed | :white_check_mark: |
     | Broken URLs | Input broken URL | Customised 404 error page displayed | Customised 404 error page displayed | Customised 404 error page displayed | :white_check_mark: |
     | Registered user URLs | Input registered user URLs | Directed to login page | Directed to registered user page | Directed to registered user page | :white_check_mark: | 
     | Product Admin URLs | Input product admin URLs | Directed to login page | Error displayed | Directed to product admin page | :white_check_mark: | 
