@@ -379,6 +379,12 @@ FAQ App files
 
 </details>
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 ### Lighthouse
 
 Lighthouse tests were run on all deployed pages for mobile and desktop, see results below:
@@ -591,7 +597,11 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 </details>
 
-<br>
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 ### Features Testing
 
@@ -624,6 +634,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Delete Link | Click on the Delete link for a product | N/A | N/A | Confirm deletion modal displayed | :white_check_mark: |
     | Confirm deletion modal | Click on cancel or delete button | N/A | N/A | Modal closed if cancel clicked and product deleted if delete clicked | :white_check_mark: |
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Product details Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -647,6 +663,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Secure checkout button | Click on button | Directed to checkout page | Directed to checkout page | Directed to checkout page | :white_check_mark: |
     | All Products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Checkout Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -664,6 +686,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Order details | Check if order info displayed | displayed | displayed | displayed | :white_check_mark:  |
     | Back to products button | Click on button | Directed back to products page | Directed back to products page | Directed back to products page | :white_check_mark: |
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Contact us Page
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -677,6 +705,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     |------|------|------|------|------|------|
     | Order History | Complete order and confirm order history dispalyed | N/A  | dispalyed  | dispalyed | :white_check_mark: |
     | Update information button | Enter and update fields and click button | N/A  | Information updated  | Information updated | :white_check_mark: |
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 - My Wishlist Page
 
@@ -699,6 +733,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Forgot password | Click forgot password link on login page | N/A  | Directed to Password reset page  | N/A | :white_check_mark: |
     | Change password link | Click on link in email  | N/A  | Directed to change password page  | N/A | :white_check_mark: |
     | Change password | Eneter new password and click change  | N/A  | Password changed message displayed | N/A | :white_check_mark: |
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
     
 - Site Messages
 
@@ -716,6 +756,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Edit Product | Click edit link on product and edit  | N/A  | N/A | Message displayed | :white_check_mark: | 
     | Delete Product | Click delete link on product  | N/A  | N/A | Message displayed | :white_check_mark: |
     | Log out | Navigate to logout page and click sign out | N/A  | Message displayed | Message displayed | :white_check_mark: | 
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 - Emails
 
@@ -737,6 +783,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Cart page | Manually enter quantity outside range and click update | Error message displayed (see known bug section) | Error message displayed (see known bug section) | Error message displayed (see known bug section) | :white_check_mark: | 
     | Site Forms | Delete any form fields or leave empty | Warning message to fill out fields displayed | Warning message to fill out fields displayed | Warning message to fill out fields displayed | :white_check_mark: | 
 
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
+
 - Defensive design 
 
     | Items being tested | Actions taken to test | Expected result (Guest User) | Expected result (Registered User) | Expected result (Super User) | Outcome |
@@ -748,7 +800,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#testing)
 \
 &nbsp;
         
@@ -768,6 +820,12 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     |As a guest user, I want to receive an order confirmation email after completing a purchase.|Completed a purchase and checked the inbox for the order confirmation email successfully.|:white_check_mark:|
     |As a guest user, I want to contact the store through a "Contact Us" page if I have any questions.|Navigated to the "Contact Us" page link in footer, filled out the form, and confirmed successful submission.|:white_check_mark:|
     |As a guest user, I want to access a FAQ section to find answers to common questions about products and services.|Navigated to the FAQ section by clicking on link in footer and confirmed list of common questions with clear answers.|:white_check_mark:|
+
+\
+&nbsp;
+[Back to Top](#testing)
+\
+&nbsp;
 
 - Registered User Story Testing:
 
@@ -790,7 +848,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#testing)
 \
 &nbsp;
 
@@ -824,7 +882,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#testing)
 \
 &nbsp;
 
@@ -857,7 +915,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#testing)
 \
 &nbsp;
 
@@ -899,6 +957,6 @@ An unfixed bug exists in the project regarding frontend input validation on the 
 
 \
 &nbsp;
-[Back to Top](#golf-shop)
+[Back to Top](#testing)
 \
 &nbsp;
