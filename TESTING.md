@@ -16,7 +16,7 @@ A few errors found with HTML files, see details below:
 
     ![Login](/documentation/code_validation/login-html.png)
 
-- Signup page, error caused by Allauth signup form
+- Signup page, error caused by Allauth signup form having no ul tag for password requirement list.
 
     ![Signup](/documentation/code_validation/signup-html.png)
 
@@ -177,7 +177,7 @@ No erros found with any of the JS files below:
 
 <details><summary>Python files</summary>
 
-No errors for project files and each app, see below:
+No errors for project files in each app, see below:
 
 Golfshop Project files
 
@@ -383,7 +383,8 @@ FAQ App files
 
 ### Lighthouse
 
-Lighthouse tests were run on all deployed pages for mobile and desktop, see results below:
+Lighthouse tests were run on all deployed pages for mobile and desktop,
+In future development, performance improvements could be implemented by working on optimizing image loading by serving images in different formats and compressing. Additionally, working to reduce render-blocking resources by inlining critical CSS, deferring non-essential JavaScript, and improving the delivery of external resources to enhance page load speed. See results below:
 
 <details><summary>Home page</summary>
 
@@ -608,7 +609,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | GOLFshop name/logo | Click on name/logo | Returns user to home page if not already there | Same as Guest | Same as Guest | :white_check_mark: |
     | Search Box | Enter product name and press Enter or click search icon| Displays search results page with relevant products | Same as Guest  | Same as Guest | :white_check_mark: |
     | My Account Dropdown   | Click on My Account icon  | Displays dropdown options Register and login  | Displays dropdown with My Profile, My Wishlist and Log out options | Displays dropdown with admin options | :white_check_mark: |
-    | Cart Icon | Click on "Cart" icon | Redirects to cart page showing items added to cart or cart empty| Same as Guest | Same as Guest | :white_check_mark: |
+    | Cart Icon | Click on Cart icon | Redirects to cart page showing items added to cart or cart empty| Same as Guest | Same as Guest | :white_check_mark: |
     | Links to All Products | Click on All Products link or main image | Redirects to all products page | Same as Guest | Same as Guest | :white_check_mark: |
     | Links to Drivers  | Click on Drivers link or Drivers image   | Filters page to Drivers category | Same as Guest |Same as Guest | :white_check_mark: |
     | Links to Bags  | Click on Bags link or image of bags | Filters page to Bags category | Same as Guest | Same as Guest | :white_check_mark: |
@@ -685,7 +686,7 @@ Lighthouse tests were run on all deployed pages for mobile and desktop, see resu
     | Save checkbox | Check box | N/A | Profile updated  | Profile updated | :white_check_mark: |
     | Login link | Click on link | Directed to login page | N/A  | N/A | :white_check_mark: |
     | Form fields | Check if populated | Not populated | Yes with profile details | Yes with profile details | :white_check_mark:  |
-    | Complete order button | Enter card details and click button | Loading spinner dispalyed and directed to checkout success page | Directed to checkout success page | Directed to checkout success page | :white_check_mark:  |
+    | Complete order button | Enter card details and click button | Loading spinner dispalyed and directed to checkout success page | Same as quest | Same as quest  | :white_check_mark:  |
 
 \
 &nbsp;
@@ -963,7 +964,7 @@ During development of the project a few common issues were encountered. One such
 
 ### Unfixed Bugs
 
-An unfixed bug exists in the project regarding frontend input validation on the cart page. When testing input a quantity manually outside the specified range was entered. When clicking update the expected frontend validation message did not display. Consequently, when a large number is entered, the cart still updated with quantity and total cost for that number. As a workaround for this issue, backend validation has been implemented in the cart view to ensure that invalid quantities are handled appropriately.
+An unfixed bug exists in the project regarding frontend input validation on the cart page. When testing an input quantity manually outside the specified range and clicking update the expected frontend validation message did not display. Consequently, when a large number is entered, the cart still updated with quantity and total cost for that number. As a workaround for this issue, backend validation has been implemented in the cart view to ensure that invalid quantities are handled appropriately.
 
 <details><summary>Known bug workaround</summary>
 

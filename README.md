@@ -375,7 +375,7 @@ The home page includes three sectioms, the header, the main landing page and the
 
 - A My Account dropdown menu to give the user the option to register an account or login if already registered.
 
-- A cart icon which links to the cart page and updates total when products are.
+- A cart icon which links to the cart page and updates total when products are added.
 
 <br>
 
@@ -523,9 +523,9 @@ The home page includes three sectioms, the header, the main landing page and the
 
 ![Checkout success](/documentation/features/checkout-success.png)
 
-- Displays the order summary, a Thank you message and taht a confirmation email will be sent to the address entered on the checkout form.
+- Displays the order summary, a Thank you message and that a confirmation email will be sent to the address entered on the checkout form.
 
-- Option to go Back to products if the user and continue shopping.
+- Option to go Back to products if the user wants to continue shopping.
 
 <br>
 
@@ -897,7 +897,7 @@ The project implements validation for user inputs both on the frontend and backe
 
 ### Defensive design features
 
-This project is designed with user experience and data integrity in mind, applying defensive design principles to ensure a secure site. It includes a delete confirmation modal that prompts super users to confirm deletion actions to prevent accidental deletions. Additionally, the project handles authorization by redirecting attempts to access restricted URLs based on user status. It also features custom error pages that display friendly messages for unauthorized access or broken links.
+This project is designed with user experience and data integrity in mind, applying defensive design principles to ensure a secure site. It includes a delete confirmation modal that prompts super users to confirm deletion actions to prevent accidental deletions. Additionally, the project handles authorization by redirecting attempts to access restricted URLs based on user status. It also features custom error pages that display friendly message for broken links.
 
 <details><summary>Defensive design</summary>
 
@@ -1080,7 +1080,7 @@ Golfshop uses Amazon Web Services (AWS) to store static and media files securely
       ]
     }```
     
-    -   Click "Review Policy" and name it (e.g., `policy-teacup-tales`), then click "Create Policy."
+    -   Click "Review Policy" and name it, then click "Create Policy."
 
 #### Add Users and Assign Permissions
     
