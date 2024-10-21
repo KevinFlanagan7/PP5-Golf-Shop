@@ -1080,7 +1080,7 @@ Golfshop uses Amazon Web Services (AWS) to store static and media files securely
       ]
     }```
     
-    -   Click "Review Policy" and name it, then click "Create Policy."
+-   Click "Review Policy" and name it, then click "Create Policy."
 
 #### Add Users and Assign Permissions
     
